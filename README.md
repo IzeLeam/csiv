@@ -1,7 +1,8 @@
 # CyberSecurity Interview Vault (CSIV)
 
-CSIV est une web app minimaliste pour s’entraîner rapidement aux questions d’entretien en cybersécurité.
+CSIV est une petite web app minimaliste pour s’entraîner rapidement aux questions d’entretien en cybersécurité.
 Tu ouvres le site, une question apparaît, tu réfléchis, puis tu affiches la réponse.
+Tu peux filtrer par catégorie / niveau / fréquence et alterner entre EN / FR.
 
 ## Usage Rapide
 1. Ouvre [csiv.lucaprc.fr](https://csiv.lucaprc.fr)
@@ -39,3 +40,12 @@ Les filtres et compteurs se mettent automatiquement à jour en lisant le JSON.
 - TypeScript
 - Tailwind CSS
 - Framer Motion
+
+## Contribuer / Proposer des questions
+
+Tu peux proposer de nouvelles questions très facilement :
+
+- directement depuis l’interface, via le bouton "Proposer une question" en bas de page ;
+- ou via un Pull Request en suivant les détails dans le fichier [`CONTRIBUTING.md`](./CONTRIBUTING.md).
+
+Toutes les contributions de questions claires, utiles et réalistes sont les bienvenues.
