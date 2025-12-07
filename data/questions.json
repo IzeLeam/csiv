@@ -1,0 +1,601 @@
+[
+  {
+    "category": "network",
+    "difficulty": "junior",
+    "frequency": "high",
+    "translations": {
+      "en": {
+        "question": "What is the difference between TCP and UDP?",
+        "answer": "TCP is connection-oriented and provides reliable, ordered delivery with retransmissions and flow control. UDP is connectionless, does not guarantee delivery or order, and is typically used where low latency matters more than reliability (e.g., DNS, VoIP, streaming)."
+      },
+      "fr": {
+        "question": "Quelle est la différence entre TCP et UDP ?",
+        "answer": "TCP est un protocole orienté connexion qui garantit une livraison fiable et ordonnée des données (accusés de réception, retransmissions, contrôle de flux). UDP est sans connexion, ne garantit ni la livraison ni l'ordre, et est utilisé quand la latence est plus importante que la fiabilité (ex: DNS, VoIP, streaming)."
+      }
+    }
+  },
+  {
+    "category": "web",
+    "difficulty": "intermediate",
+    "frequency": "medium",
+    "translations": {
+      "en": {
+        "question": "Explain the difference between XSS and CSRF.",
+        "answer": "XSS (Cross-Site Scripting) allows an attacker to inject and execute malicious JavaScript in a victim's browser, usually by abusing unescaped user input. CSRF (Cross-Site Request Forgery) tricks an authenticated user into unintentionally sending a request to a web application in which they are logged in, abusing the user's existing session or cookies."
+      },
+      "fr": {
+        "question": "Explique la différence entre XSS et CSRF.",
+        "answer": "L'XSS (Cross-Site Scripting) permet à un attaquant d'injecter et d'exécuter du JavaScript malveillant dans le navigateur de la victime, souvent via des entrées utilisateur non échappées. Le CSRF (Cross-Site Request Forgery) consiste à pousser un utilisateur authentifié à envoyer une requête non voulue vers une application où il est déjà connecté, en abusant de sa session ou de ses cookies existants."
+      }
+    }
+  },
+  {
+    "category": "general",
+    "difficulty": "junior",
+    "frequency": "low",
+    "translations": {
+      "en": {
+        "question": "What is the principle of least privilege and why is it important?",
+        "answer": "The principle of least privilege means giving users, services, and processes only the minimum permissions they need to perform their tasks. It reduces the attack surface and limits the impact of compromised accounts or applications by preventing unnecessary access to sensitive resources."
+      },
+      "fr": {
+        "question": "Qu'est-ce que le principe du moindre privilège et pourquoi est-il important ?",
+        "answer": "Le principe du moindre privilège consiste à accorder aux utilisateurs, services et processus uniquement les permissions minimales nécessaires pour réaliser leurs tâches. Cela réduit la surface d'attaque et limite l'impact en cas de compromission d'un compte ou d'une application, en évitant des accès inutiles à des ressources sensibles."
+      }
+    }
+  },
+  {
+    "category": "network",
+    "difficulty": "junior",
+    "frequency": "high",
+    "translations": {
+      "en": {
+        "question": "What is an IP address?",
+        "answer": "An IP address is a unique numerical identifier assigned to a device on a network. It allows devices to locate and communicate with each other over an IP-based network such as the Internet."
+      },
+      "fr": {
+        "question": "Qu’est-ce qu’une adresse IP ?",
+        "answer": "Une adresse IP est un identifiant numérique unique attribué à un appareil sur un réseau. Elle permet aux appareils de se localiser et de communiquer entre eux sur un réseau basé sur IP, comme Internet."
+      }
+    }
+  },
+  {
+    "category": "network",
+    "difficulty": "junior",
+    "frequency": "medium",
+    "translations": {
+      "en": {
+        "question": "What is the role of a firewall?",
+        "answer": "A firewall monitors and controls incoming and outgoing network traffic based on predefined security rules. Its main purpose is to block unauthorized access while allowing legitimate communication."
+      },
+      "fr": {
+        "question": "Quel est le rôle d’un pare-feu (firewall) ?",
+        "answer": "Un pare-feu surveille et contrôle le trafic réseau entrant et sortant selon des règles de sécurité définies. Son objectif principal est de bloquer les accès non autorisés tout en autorisant les communications légitimes."
+      }
+    }
+  },
+  {
+    "category": "web",
+    "difficulty": "junior",
+    "frequency": "high",
+    "translations": {
+      "en": {
+        "question": "What is HTTPS and how is it different from HTTP?",
+        "answer": "HTTPS is the secure version of HTTP. It uses SSL/TLS encryption to protect the confidentiality and integrity of data exchanged between the client and the server, preventing eavesdropping and tampering."
+      },
+      "fr": {
+        "question": "Qu’est-ce que HTTPS et en quoi diffère-t-il de HTTP ?",
+        "answer": "HTTPS est la version sécurisée de HTTP. Il utilise le chiffrement SSL/TLS pour protéger la confidentialité et l’intégrité des données échangées entre le client et le serveur, empêchant l’espionnage et la modification."
+      }
+    }
+  },
+  {
+    "category": "web",
+    "difficulty": "intermediate",
+    "frequency": "high",
+    "translations": {
+      "en": {
+        "question": "What is SQL Injection?",
+        "answer": "SQL Injection is a vulnerability that allows attackers to interfere with database queries by injecting malicious SQL code into application inputs, potentially allowing them to read, modify or delete data."
+      },
+      "fr": {
+        "question": "Qu’est-ce qu’une injection SQL ?",
+        "answer": "Une injection SQL est une vulnérabilité permettant à un attaquant d’interférer avec les requêtes d’une base de données en injectant du code SQL malveillant via les entrées de l’application, ce qui peut permettre la lecture, la modification ou la suppression de données."
+      }
+    }
+  },
+  {
+    "category": "general",
+    "difficulty": "junior",
+    "frequency": "high",
+    "translations": {
+      "en": {
+        "question": "What is authentication vs authorization?",
+        "answer": "Authentication is the process of verifying who a user is, while authorization determines what actions or resources the authenticated user is allowed to access."
+      },
+      "fr": {
+        "question": "Quelle est la différence entre authentification et autorisation ?",
+        "answer": "L’authentification consiste à vérifier l’identité d’un utilisateur, tandis que l’autorisation détermine quelles actions ou ressources cet utilisateur est autorisé à utiliser."
+      }
+    }
+  },
+  {
+    "category": "crypto",
+    "difficulty": "intermediate",
+    "frequency": "medium",
+    "translations": {
+      "en": {
+        "question": "What is a hash function?",
+        "answer": "A hash function takes an input and produces a fixed-size string of characters, which is typically a digest that represents the data. It is designed to be one-way and collision-resistant."
+      },
+      "fr": {
+        "question": "Qu’est-ce qu’une fonction de hachage ?",
+        "answer": "Une fonction de hachage prend une entrée et produit une chaîne de caractères de taille fixe qui représente les données. Elle est conçue pour être non réversible et résistante aux collisions."
+      }
+    }
+  },
+  {
+    "category": "crypto",
+    "difficulty": "intermediate",
+    "frequency": "high",
+    "translations": {
+      "en": {
+        "question": "What is the difference between hashing and encryption?",
+        "answer": "Hashing is a one-way process used to verify data integrity, while encryption is a reversible process used to protect confidentiality by converting data into a secure format using a key."
+      },
+      "fr": {
+        "question": "Quelle est la différence entre hachage et chiffrement ?",
+        "answer": "Le hachage est un processus à sens unique utilisé pour vérifier l’intégrité des données, tandis que le chiffrement est réversible et sert à protéger la confidentialité à l’aide d’une clé."
+      }
+    }
+  },
+  {
+    "category": "os",
+    "difficulty": "junior",
+    "frequency": "medium",
+    "translations": {
+      "en": {
+        "question": "What is a process in an operating system?",
+        "answer": "A process is an instance of a program that is being executed, including its code, memory space, and system resources such as file descriptors."
+      },
+      "fr": {
+        "question": "Qu’est-ce qu’un processus dans un système d’exploitation ?",
+        "answer": "Un processus est une instance d’un programme en cours d’exécution, incluant son code, son espace mémoire et des ressources système comme les descripteurs de fichiers."
+      }
+    }
+  },
+  {
+    "category": "os",
+    "difficulty": "junior",
+    "frequency": "medium",
+    "translations": {
+      "en": {
+        "question": "What is the purpose of file permissions in Linux?",
+        "answer": "File permissions in Linux define who can read, write, or execute a file. They are used to protect system integrity and user data."
+      },
+      "fr": {
+        "question": "À quoi servent les permissions de fichiers sous Linux ?",
+        "answer": "Les permissions de fichiers sous Linux définissent qui peut lire, écrire ou exécuter un fichier. Elles servent à protéger l’intégrité du système et les données des utilisateurs."
+      }
+    }
+  },
+  {
+    "category": "blue-team",
+    "difficulty": "intermediate",
+    "frequency": "medium",
+    "translations": {
+      "en": {
+        "question": "What is a SIEM?",
+        "answer": "A SIEM (Security Information and Event Management) collects, analyzes, and correlates log data from multiple sources to detect suspicious or malicious activity in real time."
+      },
+      "fr": {
+        "question": "Qu’est-ce qu’un SIEM ?",
+        "answer": "Un SIEM (Security Information and Event Management) collecte, analyse et corrèle des journaux provenant de plusieurs sources afin de détecter des activités suspectes ou malveillantes en temps réel."
+      }
+    }
+  },
+  {
+    "category": "red-team",
+    "difficulty": "intermediate",
+    "frequency": "medium",
+    "translations": {
+      "en": {
+        "question": "What is a vulnerability scan vs a penetration test?",
+        "answer": "A vulnerability scan identifies known vulnerabilities automatically, while a penetration test actively exploits them to evaluate the real-world impact and risk."
+      },
+      "fr": {
+        "question": "Quelle est la différence entre un scan de vulnérabilités et un pentest ?",
+        "answer": "Un scan de vulnérabilités identifie automatiquement les failles connues, tandis qu’un pentest tente de les exploiter pour évaluer leur impact réel et leur gravité."
+      }
+    }
+  },
+  {
+    "category": "network",
+    "difficulty": "intermediate",
+    "frequency": "medium",
+    "translations": {
+      "en": {
+        "question": "What is NAT (Network Address Translation)?",
+        "answer": "NAT translates private IP addresses into a public IP address, allowing multiple devices in a private network to access the internet using a single public IP."
+      },
+      "fr": {
+        "question": "Qu’est-ce que le NAT (Network Address Translation) ?",
+        "answer": "Le NAT traduit des adresses IP privées en une adresse IP publique, permettant à plusieurs appareils d’un réseau interne d’accéder à Internet via une seule adresse publique."
+      }
+    }
+  },
+  {
+    "category": "cloud",
+    "difficulty": "intermediate",
+    "frequency": "medium",
+    "translations": {
+      "en": {
+        "question": "What is the shared responsibility model in cloud security?",
+        "answer": "It is a model where the cloud provider is responsible for the security of the cloud infrastructure while the customer is responsible for securing their data, applications, and configurations."
+      },
+      "fr": {
+        "question": "Qu’est-ce que le modèle de responsabilité partagée dans le cloud ?",
+        "answer": "C’est un modèle dans lequel le fournisseur cloud est responsable de la sécurité de l’infrastructure, tandis que le client est responsable de la sécurité de ses données, applications et configurations."
+      }
+    }
+  },
+  {
+    "category": "web",
+    "difficulty": "intermediate",
+    "frequency": "medium",
+    "translations": {
+      "en": {
+        "question": "What is a Content Security Policy (CSP)?",
+        "answer": "A CSP is a security mechanism that helps prevent XSS attacks by specifying which sources of content (scripts, images, styles) are allowed to be executed or loaded by the browser."
+      },
+      "fr": {
+        "question": "Qu’est-ce qu’une Content Security Policy (CSP) ?",
+        "answer": "Une CSP est un mécanisme de sécurité qui aide à prévenir les attaques XSS en spécifiant quelles sources de contenu (scripts, images, styles) sont autorisées par le navigateur."
+      }
+    }
+  },
+  {
+    "category": "red-team",
+    "difficulty": "senior",
+    "frequency": "low",
+    "translations": {
+      "en": {
+        "question": "What is buffer overflow and why is it dangerous?",
+        "answer": "A buffer overflow occurs when data exceeds the allocated memory buffer, overwriting adjacent memory. This can lead to crashes, data corruption, or arbitrary code execution."
+      },
+      "fr": {
+        "question": "Qu’est-ce qu’un dépassement de mémoire tampon (buffer overflow) et pourquoi est-ce dangereux ?",
+        "answer": "Un buffer overflow se produit lorsque des données dépassent la mémoire allouée et écrasent des zones adjacentes, ce qui peut entraîner des crashs, des corruptions de données ou l’exécution de code arbitraire."
+      }
+    }
+  },
+  {
+    "category": "general",
+    "difficulty": "intermediate",
+    "frequency": "high",
+    "translations": {
+      "en": {
+        "question": "What is an attack surface?",
+        "answer": "An attack surface is the sum of all possible points where an attacker could attempt to enter or extract data from a system."
+      },
+      "fr": {
+        "question": "Qu’est-ce qu’une surface d’attaque ?",
+        "answer": "Une surface d’attaque représente l’ensemble des points d’entrée par lesquels un attaquant peut tenter de pénétrer ou d’extraire des données d’un système."
+      }
+    }
+  },
+  {
+    "category": "blue-team",
+    "difficulty": "intermediate",
+    "frequency": "medium",
+    "translations": {
+      "en": {
+        "question": "What is incident response?",
+        "answer": "Incident response is the structured process used to detect, contain, eradicate, and recover from cyber attacks or security breaches."
+      },
+      "fr": {
+        "question": "Qu’est-ce que la réponse à incident ?",
+        "answer": "La réponse à incident est le processus structuré permettant de détecter, contenir, éradiquer et se remettre d’une attaque ou d’une violation de sécurité."
+      }
+    }
+  },
+  {
+    "category": "cloud",
+    "difficulty": "junior",
+    "frequency": "low",
+    "translations": {
+      "en": {
+        "question": "What is a virtual machine (VM)?",
+        "answer": "A virtual machine is a software-based emulation of a physical computer, running its own operating system and applications on shared hardware."
+      },
+      "fr": {
+        "question": "Qu’est-ce qu’une machine virtuelle (VM) ?",
+        "answer": "Une machine virtuelle est une émulation logicielle d’un ordinateur physique, avec son propre système d’exploitation et ses applications, fonctionnant sur un matériel partagé."
+      }
+    }
+  },
+  {
+    "category": "crypto",
+    "difficulty": "senior",
+    "frequency": "low",
+    "translations": {
+      "en": {
+        "question": "What is a man-in-the-middle (MITM) attack?",
+        "answer": "A MITM attack occurs when an attacker secretly intercepts and possibly alters communication between two parties without their knowledge."
+      },
+      "fr": {
+        "question": "Qu’est-ce qu’une attaque de type Man-in-the-Middle (MITM) ?",
+        "answer": "Une attaque MITM se produit lorsqu’un attaquant intercepte et éventuellement modifie la communication entre deux parties à leur insu."
+      }
+    }
+  },
+  {
+    "category": "web",
+    "difficulty": "intermediate",
+    "frequency": "medium",
+    "translations": {
+      "en": {
+        "question": "What are secure and HttpOnly flags on cookies?",
+        "answer": "The Secure flag ensures cookies are only sent over HTTPS. The HttpOnly flag prevents JavaScript from accessing the cookie, protecting against XSS attacks."
+      },
+      "fr": {
+        "question": "À quoi servent les attributs Secure et HttpOnly sur un cookie ?",
+        "answer": "L’attribut Secure indique que le cookie est envoyé uniquement via HTTPS. HttpOnly empêche l’accès au cookie via JavaScript, protégeant ainsi contre certaines attaques XSS."
+      }
+    }
+  },
+  {
+    "category": "network",
+    "difficulty": "senior",
+    "frequency": "low",
+    "translations": {
+      "en": {
+        "question": "What is the difference between IDS and IPS?",
+        "answer": "An IDS (Intrusion Detection System) monitors and alerts on suspicious activity, while an IPS (Intrusion Prevention System) can actively block or prevent detected threats."
+      },
+      "fr": {
+        "question": "Quelle est la différence entre IDS et IPS ?",
+        "answer": "Un IDS (système de détection d’intrusion) surveille et alerte sur les activités suspectes, tandis qu’un IPS (système de prévention d’intrusion) peut bloquer activement les menaces détectées."
+      }
+    }
+  },
+  {
+    "category": "general",
+    "difficulty": "intermediate",
+    "frequency": "high",
+    "translations": {
+      "en": {
+        "question": "Why are regular security updates important?",
+        "answer": "Security updates fix known vulnerabilities that attackers can exploit. Keeping systems up to date reduces the risk of compromise."
+      },
+      "fr": {
+        "question": "Pourquoi les mises à jour de sécurité sont-elles importantes ?",
+        "answer": "Les mises à jour corrigent des vulnérabilités connues pouvant être exploitées par des attaquants. Maintenir les systèmes à jour réduit fortement le risque de compromission."
+      }
+    }
+  },
+  {
+    "id": "q26",
+    "category": "red-team",
+    "difficulty": "junior",
+    "frequency": "medium",
+    "translations": {
+      "en": {
+        "question": "What is the difference between black-box, white-box and gray-box penetration testing?",
+        "answer": "Black-box testing means no prior knowledge of the target (simulating an external attacker), white-box testing means full knowledge (source code, infrastructure, credentials), gray-box is a semi-informed test (some knowledge, e.g. user credentials). Each approach reveals different types of vulnerabilities and trade-offs between realism and coverage."
+      },
+      "fr": {
+        "question": "Quelle est la différence entre un pentest black-box, white-box et gray-box ?",
+        "answer": "Le black-box signifie qu’on n’a aucune connaissance préalable de la cible (on simule un attaquant externe), le white-box signifie qu’on a la connaissance complète (code source, infrastructure, identifiants), le gray-box est un test semi-informé (on a certaines connaissances, par exemple des identifiants utilisateur). Chaque approche découvre différents types de vulnérabilités et offre un compromis entre réalisme et exhaustivité."
+      }
+    }
+  },
+  {
+    "id": "q27",
+    "category": "red-team",
+    "difficulty": "intermediate",
+      "frequency": "high",
+    "translations": {
+      "en": {
+        "question": "What are the typical phases of a penetration testing engagement?",
+        "answer": "A typical pentest follows these phases: 1) Reconnaissance / information gathering; 2) Scanning and enumeration; 3) Vulnerability analysis; 4) Exploitation; 5) Privilege escalation & post-exploitation; 6) Reporting and remediation recommendations."
+      },
+      "fr": {
+        "question": "Quelles sont les phases typiques d’un test d’intrusion (pentest) ?",
+        "answer": "Un pentest typique suit ces phases : 1) Reconnaissance / collecte d’informations ; 2) Scan et énumération ; 3) Analyse des vulnérabilités ; 4) Exploitation ; 5) Escalade de privilèges & post-exploitation ; 6) Rapport et recommandations de correction."
+      }
+    }
+  },
+  {
+    "id": "q28",
+    "category": "red-team",
+      "difficulty": "intermediate",
+      "frequency": "medium",
+    "translations": {
+      "en": {
+        "question": "What is \"pass the hash\" and in which context could it be used during a pentest?",
+        "answer": "\"Pass the Hash\" is an attack technique where an attacker uses captured password hashes (instead of plaintext passwords) to authenticate to network services without needing to crack them. It’s often used in Windows environments to move laterally once credentials or hashes are obtained."
+      },
+      "fr": {
+        "question": "Qu’est-ce que le \"pass the hash\" et dans quel contexte peut-on l’utiliser pendant un pentest ?",
+        "answer": "Le \"pass the hash\" est une technique d’attaque où un attaquant utilise des hash de mots de passe capturés (au lieu du mot de passe en clair) pour s’authentifier sur des services réseau sans avoir besoin de les décrypter. On l’utilise souvent dans des environnements Windows pour se déplacer latéralement dès que des hash ou identifiants sont récupérés."
+      }
+    }
+  },
+  {
+    "id": "q29",
+    "category": "web",
+      "difficulty": "intermediate",
+      "frequency": "high",
+    "translations": {
+      "en": {
+        "question": "What is the OWASP Top 10 and why is it important for web application pentests?",
+        "answer": "The OWASP Top 10 is a list of the most critical web application security risks, such as Injection, Broken Access Control, XSS, Security Misconfiguration, etc. It is important because it helps pentesters focus on common pitfalls and ensures a baseline of coverage during assessments."
+      },
+      "fr": {
+        "question": "Qu’est-ce que l’OWASP Top 10 et pourquoi est-ce important pour un pentest d’application web ?",
+        "answer": "L’OWASP Top 10 est une liste des risques les plus critiques pour les applications web (Injection, Broken Access Control, XSS, Configuration incorrecte, etc.). C’est important car cela permet aux pentesteurs de cibler les failles les plus courantes et de garantir une couverture minimale lors des évaluations."
+      }
+    }
+  },
+  {
+    "id": "q30",
+      "category": "web",
+      "difficulty": "intermediate",
+      "frequency": "medium",
+    "translations": {
+      "en": {
+        "question": "How would you test for SQL Injection vulnerabilities in a web application?",
+        "answer": "You start by sending payloads to input fields or parameters (e.g. ' OR 1=1 --, ' UNION SELECT ...) to see if the server returns database errors or abnormal responses. Then you try to extract data (blind or error-based SQLi), test all inputs, check GET/POST, headers, cookies. Use automated tools (like SQLmap) then manual validation to confirm exploitable vulnerability."
+      },
+      "fr": {
+        "question": "Comment testeriez-vous la présence de vulnérabilités d’injection SQL dans une application web ?",
+        "answer": "On commence par envoyer des payloads dans les champs ou paramètres (ex: ' OR 1=1 --, ' UNION SELECT …) pour voir si le serveur renvoie des erreurs SQL ou des réponses anormales. Ensuite on tente d’extraire des données (SQLi aveugle ou basée sur les erreurs), on teste tous les inputs — GET/POST, headers, cookies. On utilise des outils automatisés (comme SQLmap) puis on valide manuellement pour confirmer la vulnérabilité exploitable."
+      }
+    }
+  },
+  {
+    "id": "q31",
+      "category": "os",
+      "difficulty": "intermediate",
+      "frequency": "medium",
+    "translations": {
+      "en": {
+        "question": "What is privilege escalation and why is it important after initial access?",
+        "answer": "Privilege escalation is the process of gaining higher-level permissions than initially obtained (e.g. from a low-privilege user to root or SYSTEM). It’s crucial because many vulnerabilities and sensitive data require elevated privileges to access; without escalation the impact of access remains limited."
+      },
+      "fr": {
+        "question": "Qu’est-ce que l’escalade de privilèges et pourquoi est-elle importante après un accès initial ?",
+        "answer": "L’escalade de privilèges est le processus permettant d’obtenir des permissions plus élevées que celles obtenues initialement (par exemple passer d’un utilisateur standard à root ou SYSTEM). C’est crucial parce que beaucoup de vulnérabilités et de données sensibles nécessitent des privilèges élevés ; sans escalade, l’impact d’un accès reste limité."
+      }
+    }
+  },
+  {
+    "id": "q32",
+      "category": "red-team",
+      "difficulty": "intermediate",
+      "frequency": "medium",
+    "translations": {
+      "en": {
+        "question": "What tools would you commonly use for reconnaissance and scanning during a pentest?",
+        "answer": "Common tools include: for network reconnaissance/scanning → Nmap, for web application scanning → Burp Suite or OWASP ZAP, for vulnerability scanning → Nessus or OpenVAS, for traffic analysis → Wireshark or tcpdump. The choice depends on the target scope and test phase."
+      },
+      "fr": {
+        "question": "Quels outils utiliseriez-vous couramment pour la reconnaissance et le scan lors d’un pentest ?",
+        "answer": "Les outils classiques sont : pour la reconnaissance / scan réseau → Nmap ; pour le scan d’application web → Burp Suite ou OWASP ZAP ; pour le scan de vulnérabilités → Nessus ou OpenVAS ; pour l’analyse de trafic → Wireshark ou tcpdump. Le choix dépend de la cible et de la phase du test."
+      }
+    }
+  },
+  {
+    "id": "q33",
+      "category": "red-team",
+      "difficulty": "senior",
+      "frequency": "low",
+    "translations": {
+      "en": {
+        "question": "What are the legal and ethical considerations one must keep in mind before performing a penetration test?",
+        "answer": "Before a pentest, you must have explicit written permission or a contract (scope definition), ensure systems are in scope, ensure data confidentiality and avoid damage, define rules of engagement. Without authorization, testing may be illegal even if well-intentioned."
+      },
+      "fr": {
+        "question": "Quelles sont les considérations légales et éthiques à garder en tête avant de réaliser un test d’intrusion ?",
+        "answer": "Avant un pentest, il faut une autorisation écrite explicite ou un contrat (définissant la portée), s’assurer que les systèmes sont bien dans le périmètre, garantir la confidentialité des données et éviter tout dommage, définir des règles d’engagement. Sans autorisation, un test peut être illégal même s’il est bien intentionné."
+      }
+    }
+  },
+  {
+    "id": "q34",
+      "category": "red-team",
+      "difficulty": "senior",
+      "frequency": "low",
+    "translations": {
+      "en": {
+        "question": "How do you differentiate between a vulnerability assessment and a full penetration test?",
+        "answer": "A vulnerability assessment identifies and reports potential vulnerabilities (often via automated scanning) without exploiting them; a penetration test goes further — it attempts to exploit vulnerabilities to demonstrate actual risk, including privilege escalation, data exfiltration or persistence. The pentest also provides proof-of-concept and a realistic view of impact."
+      },
+      "fr": {
+        "question": "Comment distinguer une évaluation de vulnérabilité d’un test d’intrusion complet ?",
+        "answer": "Une évaluation de vulnérabilité identifie et reporte des failles potentielles (souvent via des scans automatiques) sans les exploiter ; un pentest va plus loin — il tente d’exploiter des vulnérabilités pour démontrer un risque réel, incluant escalade de privilèges, exfiltration de données ou persistance. Le pentest fournit un proof-of-concept et une vision réaliste de l’impact."
+      }
+    }
+  },
+  {
+    "id": "q35",
+      "category": "web",
+      "difficulty": "intermediate",
+      "frequency": "high",
+    "translations": {
+      "en": {
+        "question": "What is Cross-Site Scripting (XSS) and what are the main types?",
+        "answer": "XSS is a vulnerability that allows an attacker to inject malicious scripts into webpages viewed by other users. Main types are: Stored XSS (payload stored on server), Reflected XSS (payload in request, reflected in response), and DOM-based XSS (vulnerable client-side JS). Each poses different risks and requires different mitigations."
+      },
+      "fr": {
+        "question": "Qu’est-ce que le Cross-Site Scripting (XSS) et quels sont les principaux types ?",
+        "answer": "L’XSS est une vulnérabilité qui permet à un attaquant d’injecter des scripts malveillants dans des pages web vues par d’autres utilisateurs. Les principaux types sont : XSS stocké (payload stocké sur le serveur), XSS réfléchi (payload dans la requête, renvoyé dans la réponse), et XSS basé sur le DOM (JS client vulnérable). Chacun représente des risques différents et nécessite des mesures de mitigation spécifiques."
+      }
+    }
+  },
+  {
+    "id": "q36",
+      "category": "red-team",
+      "difficulty": "senior",
+      "frequency": "medium",
+    "translations": {
+      "en": {
+        "question": "If you gain a shell on a Windows host in a domain environment, what are common steps you’ll take to escalate privileges and move laterally?",
+        "answer": "You’d enumerate users and privileges, check for misconfigurations, weak services, unquoted service paths, check for credentials (clear text), attempt to extract password hashes, use Pass-the-Hash or pass-the-ticket, dump LSASS memory, analyze for cached credentials, then pivot to other hosts or escalate to domain privileges."
+      },
+      "fr": {
+        "question": "Si vous obtenez un shell sur une machine Windows dans un environnement de domaine, quelles étapes communes entreprendriez-vous pour escalader les privilèges et vous déplacer latéralement ?",
+        "answer": "Vous énumérez les utilisateurs et leurs privilèges, vérifiez les mauvaises configurations, services vulnérables, chemins non quotés pour les services, cherchez des identifiants (texte clair), tentez d’extraire des hash de mots de passe, utilisez Pass-the-Hash ou Pass-the-Ticket, dumperez la mémoire LSASS, analysez les identifiants cachés, puis pivotez vers d’autres hôtes ou escaladez aux privilèges de domaine."
+      }
+    }
+  },
+  {
+    "id": "q37",
+      "category": "cloud",
+      "difficulty": "intermediate",
+      "frequency": "medium",
+    "translations": {
+      "en": {
+        "question": "What specific risks arise when performing a pentest in a cloud environment compared to an on-premise setup?",
+        "answer": "Cloud environments introduce risks like misconfigured IAM permissions, exposed storage buckets, weak APIs, insecure metadata endpoints, improper network segmentation, and shared infrastructure. The attack surface often includes API endpoints, configuration errors, and weak identity management rather than only network ports."
+      },
+      "fr": {
+        "question": "Quels risques spécifiques apparaissent lorsqu’on réalise un pentest dans un environnement cloud comparé à une installation sur site ?",
+        "answer": "Les environnements cloud introduisent des risques comme des permissions IAM mal configurées, des buckets de stockage exposés, des API faibles, des endpoints metadata vulnérables, une segmentation réseau incorrecte, et une infrastructure partagée. La surface d’attaque inclut souvent des endpoints API, des erreurs de configuration et une mauvaise gestion des identités plutôt que seulement des ports réseau."
+      }
+    }
+  },
+  {
+    "id": "q38",
+      "category": "red-team",
+      "difficulty": "intermediate",
+      "frequency": "medium",
+    "translations": {
+      "en": {
+        "question": "How do you avoid damaging production systems or data when performing a pentest?",
+        "answer": "You define a clear scope and rules of engagement, avoid destructive tests by default, back up data if allowed, work in test or staging environments when possible, document all actions, and obtain explicit consent. Always verify with the client which actions are permitted (e.g. DoS, brute-force, payload execution)."
+      },
+      "fr": {
+        "question": "Comment éviter d’endommager des systèmes ou des données de production lors d’un pentest ?",
+        "answer": "On définit un périmètre clair et des règles d’engagement, on évite les tests destructifs par défaut, on effectue des backups si autorisé, on privilégie des environnements de test ou staging lorsque possible, on documente toutes les actions, et on obtient un consentement explicite. Il faut toujours vérifier avec le client quelles actions sont permises (DoS, brute-force, exécution de payloads…)."
+      }
+    }
+  },
+  {
+    "id": "q39",
+      "category": "red-team",
+      "difficulty": "intermediate",
+      "frequency": "low",
+    "translations": {
+      "en": {
+        "question": "What is a 'vulnerability scan' and why is it not enough when you’re hiring a pentester?",
+        "answer": "A vulnerability scan uses automated tools to detect known vulnerabilities, configuration issues, or missing patches. But it doesn’t attempt to exploit them — so it can’t assess real risk or chain vulnerabilities. A pentest goes further by exploiting vulnerabilities to demonstrate actual impact."
+      },
+      "fr": {
+        "question": "Qu’est-ce qu’un \"vulnerability scan\" et pourquoi ce n’est pas suffisant lorsqu’on engage un pentesteur ?",
+        "answer": "Un \"vulnerability scan\" utilise des outils automatisés pour détecter des failles connues, des problèmes de configuration ou des patches manquants. Mais il n’essaie pas de les exploiter — il ne peut donc pas évaluer le risque réel ou enchaîner plusieurs vulnérabilités. Un pentest va plus loin en exploitant les failles pour démontrer l’impact réel."
+      }
+    }
+  }
+]
