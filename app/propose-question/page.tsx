@@ -1,6 +1,7 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useRef, useState} from "react";
+import Link from "next/link";
 import { motion } from "framer-motion";
 import { formTexts, type Language } from "./translations";
 
@@ -17,6 +18,10 @@ export default function ProposeQuestionPage() {
   });
   const [status, setStatus] = useState<"idle" | "submitting" | "success" | "error">("idle");
   const [message, setMessage] = useState<string>("");
+  const [remaining, setRemaining] = useState<number>(0);
+  const timerRef = useRef<number | null>(null);
+
+  const CLIENT_COOLDOWN = 60;
 
   const t = (key: keyof (typeof formTexts)[Language]) => formTexts[language][key];
 
@@ -48,6 +53,16 @@ export default function ProposeQuestionPage() {
       });
 
       if (!res.ok) {
+        if (res.status === 429) {
+          const json = await res.json().catch(() => ({}));
+          const retry = json?.retryAfter || Number(res.headers.get("Retry-After")) || CLIENT_COOLDOWN;
+          const secs = Number(retry) || CLIENT_COOLDOWN;
+          startCooldown(secs);
+          setStatus("error");
+          setMessage(t("error") + ` (${t("cooldown")} ${secs}s)`);
+          return;
+        }
+
         throw new Error("Request failed");
       }
 
@@ -62,11 +77,40 @@ export default function ProposeQuestionPage() {
         frQuestion: "",
         frAnswer: "",
       });
-    } catch (err) {
+    } catch {
       setStatus("error");
       setMessage(t("error"));
     }
   };
+
+  function startCooldown(seconds: number) {
+    const until = Date.now() + seconds * 1000;
+    setRemaining(seconds);
+    if (timerRef.current) {
+      window.clearInterval(timerRef.current);
+    }
+    timerRef.current = window.setInterval(() => {
+      const now = Date.now();
+      const rem = Math.max(0, Math.ceil((until - now) / 1000));
+      setRemaining(rem);
+      if (rem <= 0 && timerRef.current) {
+        window.clearInterval(timerRef.current);
+        timerRef.current = null;
+      }
+    }, 1000);
+  }
+
+  useEffect(() => {
+    if (status === "success") {
+      startCooldown(CLIENT_COOLDOWN);
+    }
+  }, [status]);
+
+  useEffect(() => {
+    return () => {
+      if (timerRef.current) window.clearInterval(timerRef.current);
+    };
+  }, []);
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-black via-zinc-950 to-black text-zinc-100">
@@ -105,12 +149,12 @@ export default function ProposeQuestionPage() {
               </span>
             </motion.button>
 
-            <a
+            <Link
               href="/"
               className="text-[11px] text-zinc-400 underline-offset-4 hover:text-zinc-200 hover:underline"
             >
               {t("backLink")}
-            </a>
+            </Link>
           </div>
         </header>
 
@@ -231,12 +275,16 @@ export default function ProposeQuestionPage() {
             )}
             <motion.button
               type="submit"
-              disabled={status === "submitting"}
+              disabled={status === "submitting" || remaining > 0}
               whileTap={{ scale: 0.97 }}
               whileHover={{ scale: 1.02 }}
               className="ml-auto inline-flex items-center justify-center rounded-full bg-red-600 px-4 py-2 text-[11px] font-semibold text-zinc-50 shadow-[0_0_25px_rgba(248,113,113,0.5)] transition hover:bg-red-500 disabled:cursor-not-allowed disabled:bg-zinc-700"
             >
-              {status === "submitting" ? t("submitting") : t("submit")}
+              {status === "submitting"
+                ? t("submitting")
+                : remaining > 0
+                ? `${t("cooldown")} (${remaining}s)`
+                : t("submit")}
             </motion.button>
           </div>
         </motion.form>

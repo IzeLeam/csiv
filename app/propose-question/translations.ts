@@ -24,6 +24,7 @@ export const formTexts: Record<Language, Record<string, string>> = {
     submitting: "Sending...",
     success: "Thanks! Your question has been proposed.",
     error: "An error occurred. Please try again later.",
+    cooldown: "Please wait",
   },
   fr: {
     title: "Proposer une question",
@@ -48,5 +49,6 @@ export const formTexts: Record<Language, Record<string, string>> = {
     submitting: "Envoi...",
     success: "Merci ! Ta question a été proposée.",
     error: "Une erreur est survenue. Réessaie plus tard.",
+    cooldown: "Veuillez patienter",
   },
 };
