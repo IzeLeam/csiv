@@ -1,0 +1,82 @@
+[
+  {
+    "question": {
+      "category": "",
+      "difficulty": "",
+      "frequency": "",
+      "translations": {
+        "en": {
+          "question": "What is a cloud-based multi-factor authentication (MFA)?",
+          "answer": "Cloud-based MFA is a solution that adds a layer of security to the authentication process by requiring users to provide additional verification factors."
+        },
+        "fr": {
+          "question": "Qu'est-ce qu'une authentification multifacteur (MFA) basée sur le cloud ?",
+          "answer": "La MFA basée sur le cloud est une solution qui ajoute une couche de sécurité au processus d'authentification en obligeant les utilisateurs à fournir des facteurs de vérification supplémentaires."
+        }
+      }
+    },
+    "reason": "incorrect",
+    "description": "",
+    "createdAt": "2025-12-13T22:13:38.052Z"
+  },
+  {
+    "question": {
+      "category": "",
+      "difficulty": "",
+      "frequency": "",
+      "translations": {
+        "en": {
+          "question": "What is a cloud-based multi-factor authentication (MFA)?",
+          "answer": "Cloud-based MFA is a solution that adds a layer of security to the authentication process by requiring users to provide additional verification factors."
+        },
+        "fr": {
+          "question": "Qu'est-ce qu'une authentification multifacteur (MFA) basée sur le cloud ?",
+          "answer": "La MFA basée sur le cloud est une solution qui ajoute une couche de sécurité au processus d'authentification en obligeant les utilisateurs à fournir des facteurs de vérification supplémentaires."
+        }
+      }
+    },
+    "reason": "outdated",
+    "description": "szszszs",
+    "createdAt": "2025-12-13T22:13:49.498Z"
+  },
+  {
+    "question": {
+      "category": "",
+      "difficulty": "",
+      "frequency": "",
+      "translations": {
+        "en": {
+          "question": "What is a cloud-based multi-factor authentication (MFA)?",
+          "answer": "Cloud-based MFA is a solution that adds a layer of security to the authentication process by requiring users to provide additional verification factors."
+        },
+        "fr": {
+          "question": "Qu'est-ce qu'une authentification multifacteur (MFA) basée sur le cloud ?",
+          "answer": "La MFA basée sur le cloud est une solution qui ajoute une couche de sécurité au processus d'authentification en obligeant les utilisateurs à fournir des facteurs de vérification supplémentaires."
+        }
+      }
+    },
+    "reason": "incorrect",
+    "description": "szszszszszszsz",
+    "createdAt": "2025-12-13T22:14:01.831Z"
+  },
+  {
+    "question": {
+      "category": "",
+      "difficulty": "",
+      "frequency": "",
+      "translations": {
+        "en": {
+          "question": "What is a cloud-based managed security service provider (MSSP)?",
+          "answer": "A cloud-based MSSP is a third-party provider that offers cloud-based security services, such as monitoring and incident response, to customers."
+        },
+        "fr": {
+          "question": "Qu'est-ce qu'un fournisseur de services de sécurité gérés (MSSP) basé sur le cloud ?",
+          "answer": "Un MSSP basé sur le cloud est un fournisseur tiers qui propose aux clients des services de sécurité basés sur le cloud, tels que la surveillance et la réponse aux incidents."
+        }
+      }
+    },
+    "reason": "incorrect",
+    "description": "",
+    "createdAt": "2025-12-13T22:15:13.993Z"
+  }
+]
