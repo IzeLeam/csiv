@@ -15,7 +15,6 @@ Les questions sont définies dans data/questions.json.
 Chaque entrée suit ce format :
 ```json
 {
-  "id": "q1",
   "category": "network",          // ex: network, web, cloud, blue-team, etc.
   "difficulty": "junior",         // ex: junior, intermediate, senior
   "frequency": "high",            // ex: low, medium, high (fréquence en entretien)
@@ -36,7 +35,7 @@ Tu peux ajouter autant de catégories / difficultés que tu veux.
 Les filtres et compteurs se mettent automatiquement à jour en lisant le JSON.
 
 ## Stack
-- Next.js 13 (App Router)
+- Next.js 16
 - TypeScript
 - Tailwind CSS
 - Framer Motion
