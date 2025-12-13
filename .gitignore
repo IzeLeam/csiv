@@ -44,5 +44,6 @@ data/proposed-questions.json
 data/created_questions.json
 data/extracted_questions3.json
 data/extracted_questions.json
+data/reported_questions.json
 
 scripts/
