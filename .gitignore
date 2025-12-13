@@ -41,3 +41,8 @@ yarn-error.log*
 next-env.d.ts
 
 data/proposed-questions.json
+data/created_questions.json
+data/extracted_questions3.json
+data/extracted_questions.json
+
+scripts/
