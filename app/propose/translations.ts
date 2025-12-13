@@ -20,6 +20,10 @@ export const formTexts: Record<Language, Record<string, string>> = {
     frBlockTitle: "In French",
     questionLabel: "Question",
     answerLabel: "Answer",
+    requiredHint: "* At least one question (EN or FR) is required.",
+    confirmIncomplete:
+      "Some fields are empty (category, level, answers, etc.). Send anyway?",
+    missingQuestion: "Please fill at least one question (EN or FR).",
     submit: "Send proposal",
     submitting: "Sending...",
     success: "Thanks! Your question has been proposed.",
@@ -45,6 +49,11 @@ export const formTexts: Record<Language, Record<string, string>> = {
     frBlockTitle: "En français",
     questionLabel: "Question",
     answerLabel: "Réponse",
+    requiredHint:
+      "* Au moins une question (EN ou FR) est obligatoire.",
+    confirmIncomplete:
+      "Certains champs sont vides (catégorie, niveau, réponses, etc.). Envoyer quand même ?",
+    missingQuestion: "Merci de remplir au moins une question (EN ou FR).",
     submit: "Envoyer la proposition",
     submitting: "Envoi...",
     success: "Merci ! Ta question a été proposée.",

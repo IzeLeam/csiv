@@ -5,6 +5,17 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 import { formTexts, type Language } from "./translations";
 import { LanguageToggle } from "../components/LanguageToggle";
+import { ConfirmModal } from "../components/ConfirmModal";
+
+type TrimmedForm = {
+  category: string;
+  difficulty: string;
+  frequency: string;
+  enQuestion: string;
+  enAnswer: string;
+  frQuestion: string;
+  frAnswer: string;
+};
 
 export default function ProposeQuestionPage() {
   const [language, setLanguage] = useState<Language>("fr");
@@ -21,6 +32,8 @@ export default function ProposeQuestionPage() {
   const [message, setMessage] = useState<string>("");
   const [remaining, setRemaining] = useState<number>(0);
   const timerRef = useRef<number | null>(null);
+  const [confirmOpen, setConfirmOpen] = useState(false);
+  const [pendingPayload, setPendingPayload] = useState<TrimmedForm | null>(null);
 
   const CLIENT_COOLDOWN = 60;
 
@@ -33,22 +46,20 @@ export default function ProposeQuestionPage() {
     setForm((prev) => ({ ...prev, [name]: value }));
   };
 
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault();
+  const submitProposal = async (payload: TrimmedForm) => {
     setStatus("submitting");
-    setMessage("");
 
     try {
       const res = await fetch("/api/propose-question", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
-          category: form.category.trim(),
-          difficulty: form.difficulty.trim(),
-          frequency: form.frequency.trim(),
+          category: payload.category,
+          difficulty: payload.difficulty,
+          frequency: payload.frequency,
           translations: {
-            en: { question: form.enQuestion.trim(), answer: form.enAnswer.trim() },
-            fr: { question: form.frQuestion.trim(), answer: form.frAnswer.trim() },
+            en: { question: payload.enQuestion, answer: payload.enAnswer },
+            fr: { question: payload.frQuestion, answer: payload.frAnswer },
           },
         }),
       });
@@ -56,7 +67,10 @@ export default function ProposeQuestionPage() {
       if (!res.ok) {
         if (res.status === 429) {
           const json = await res.json().catch(() => ({}));
-          const retry = json?.retryAfter || Number(res.headers.get("Retry-After")) || CLIENT_COOLDOWN;
+          const retry =
+            json?.retryAfter ||
+            Number(res.headers.get("Retry-After")) ||
+            CLIENT_COOLDOWN;
           const secs = Number(retry) || CLIENT_COOLDOWN;
           startCooldown(secs);
           setStatus("error");
@@ -84,6 +98,42 @@ export default function ProposeQuestionPage() {
     }
   };
 
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    setMessage("");
+
+    const trimmed: TrimmedForm = {
+      category: form.category.trim(),
+      difficulty: form.difficulty.trim(),
+      frequency: form.frequency.trim(),
+      enQuestion: form.enQuestion.trim(),
+      enAnswer: form.enAnswer.trim(),
+      frQuestion: form.frQuestion.trim(),
+      frAnswer: form.frAnswer.trim(),
+    };
+
+    const hasEnQuestion = trimmed.enQuestion.length > 0;
+    const hasFrQuestion = trimmed.frQuestion.length > 0;
+
+    if (!hasEnQuestion && !hasFrQuestion) {
+      setStatus("error");
+      setMessage(t("missingQuestion"));
+      return;
+    }
+
+    const values = Object.values(trimmed);
+    const hasEmpty = values.some((v) => v.length === 0);
+
+    if (hasEmpty) {
+      setPendingPayload(trimmed);
+      setConfirmOpen(true);
+      setStatus("idle");
+      return;
+    }
+
+    await submitProposal(trimmed);
+  };
+
   function startCooldown(seconds: number) {
     const until = Date.now() + seconds * 1000;
     setRemaining(seconds);
@@ -102,12 +152,6 @@ export default function ProposeQuestionPage() {
   }
 
   useEffect(() => {
-    if (status === "success") {
-      startCooldown(CLIENT_COOLDOWN);
-    }
-  }, [status]);
-
-  useEffect(() => {
     return () => {
       if (timerRef.current) window.clearInterval(timerRef.current);
     };
@@ -116,6 +160,25 @@ export default function ProposeQuestionPage() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-black via-zinc-950 to-black text-zinc-100">
       <div className="mx-auto flex min-h-screen max-w-2xl flex-col px-4 py-8 md:px-8 md:py-12">
+        <ConfirmModal
+          open={confirmOpen}
+          title={t("title")}
+          description={t("confirmIncomplete")}
+          confirmLabel={language === "fr" ? "Envoyer" : "Send"}
+          cancelLabel={language === "fr" ? "Annuler" : "Cancel"}
+          onCancel={() => {
+            setConfirmOpen(false);
+            setPendingPayload(null);
+          }}
+          onConfirm={() => {
+            if (!pendingPayload) {
+              setConfirmOpen(false);
+              return;
+            }
+            setConfirmOpen(false);
+            void submitProposal(pendingPayload);
+          }}
+        />
         <header className="mb-6 flex items-center justify-between gap-4">
           <h1 className="text-sm font-semibold uppercase tracking-[0.3em] text-red-500">
             {t("title")}
@@ -152,7 +215,6 @@ export default function ProposeQuestionPage() {
                 name="category"
                 value={form.category}
                 onChange={handleChange}
-                required
                 className="h-8 rounded-xl border border-zinc-800 bg-zinc-950/70 px-2 text-[11px] text-zinc-100 outline-none ring-red-600/60 transition focus:border-red-500 focus:ring-2"
                 placeholder={t("categoryPlaceholder")}
               />
@@ -163,7 +225,6 @@ export default function ProposeQuestionPage() {
                 name="difficulty"
                 value={form.difficulty}
                 onChange={handleChange}
-                required
                 className="h-8 rounded-xl border border-zinc-800 bg-zinc-950/70 px-2 text-[11px] text-zinc-100 outline-none ring-red-600/60 transition focus:border-red-500 focus:ring-2"
               >
                 <option value="">{t("levelPlaceholder")}</option>
@@ -178,7 +239,6 @@ export default function ProposeQuestionPage() {
                 name="frequency"
                 value={form.frequency}
                 onChange={handleChange}
-                required
                 className="h-8 rounded-xl border border-zinc-800 bg-zinc-950/70 px-2 text-[11px] text-zinc-100 outline-none ring-red-600/60 transition focus:border-red-500 focus:ring-2"
               >
                 <option value="">{t("frequencyPlaceholder")}</option>
@@ -193,12 +253,14 @@ export default function ProposeQuestionPage() {
             <div className="flex flex-col gap-2 text-[11px]">
               <span className="text-xs font-semibold text-zinc-200">{t("enBlockTitle")}</span>
               <div className="flex flex-col gap-1">
-                <label className="font-medium text-zinc-300">{t("questionLabel")}</label>
+                <label className="font-medium text-zinc-300">
+                  {t("questionLabel")}
+                  <span className="ml-1 text-red-500">*</span>
+                </label>
                 <textarea
                   name="enQuestion"
                   value={form.enQuestion}
                   onChange={handleChange}
-                  required
                   rows={2}
                   className="rounded-xl border border-zinc-800 bg-zinc-950/70 px-2 py-1 text-[11px] text-zinc-100 outline-none ring-red-600/60 transition focus:border-red-500 focus:ring-2"
                 />
@@ -209,7 +271,6 @@ export default function ProposeQuestionPage() {
                   name="enAnswer"
                   value={form.enAnswer}
                   onChange={handleChange}
-                  required
                   rows={4}
                   className="rounded-xl border border-zinc-800 bg-zinc-950/70 px-2 py-1 text-[11px] text-zinc-100 outline-none ring-red-600/60 transition focus:border-red-500 focus:ring-2"
                 />
@@ -219,12 +280,14 @@ export default function ProposeQuestionPage() {
             <div className="flex flex-col gap-2 text-[11px]">
               <span className="text-xs font-semibold text-zinc-200">{t("frBlockTitle")}</span>
               <div className="flex flex-col gap-1">
-                <label className="font-medium text-zinc-300">{t("questionLabel")}</label>
+                <label className="font-medium text-zinc-300">
+                  {t("questionLabel")}
+                  <span className="ml-1 text-red-500">*</span>
+                </label>
                 <textarea
                   name="frQuestion"
                   value={form.frQuestion}
                   onChange={handleChange}
-                  required
                   rows={2}
                   className="rounded-xl border border-zinc-800 bg-zinc-950/70 px-2 py-1 text-[11px] text-zinc-100 outline-none ring-red-600/60 transition focus:border-red-500 focus:ring-2"
                 />
@@ -235,7 +298,6 @@ export default function ProposeQuestionPage() {
                   name="frAnswer"
                   value={form.frAnswer}
                   onChange={handleChange}
-                  required
                   rows={4}
                   className="rounded-xl border border-zinc-800 bg-zinc-950/70 px-2 py-1 text-[11px] text-zinc-100 outline-none ring-red-600/60 transition focus:border-red-500 focus:ring-2"
                 />
@@ -251,6 +313,11 @@ export default function ProposeQuestionPage() {
                 }
               >
                 {message}
+              </span>
+            )}
+            {!message && (
+              <span className="text-[10px] text-zinc-500">
+                {t("requiredHint")}
               </span>
             )}
             <motion.button
