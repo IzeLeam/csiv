@@ -135,7 +135,6 @@ export default function Home() {
               question={currentQuestion}
               translation={currentTranslation}
               showAnswer={showAnswer}
-              onToggleAnswer={() => setShowAnswer((prev) => !prev)}
               currentIndex={currentIndex}
               categoryDisplay={categoryDisplay}
               difficultyDisplay={difficultyDisplay}

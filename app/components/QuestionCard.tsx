@@ -1,16 +1,16 @@
 "use client";
 
+import { useState } from "react";
 import { motion } from "framer-motion";
-import Link from "next/link";
 import type { Language, Question } from "../types";
 import { t } from "../translations";
+import { ReportModal } from "./ReportModal";
 
 interface QuestionCardProps {
   language: Language;
   question: Question | null;
   translation: { question: string; answer: string } | null;
   showAnswer: boolean;
-  onToggleAnswer: () => void;
   currentIndex: number;
   categoryDisplay: (v: string) => string;
   difficultyDisplay: (v: string) => string;
@@ -22,12 +22,13 @@ export function QuestionCard({
   question,
   translation,
   showAnswer,
-  onToggleAnswer,
   currentIndex,
   categoryDisplay,
   difficultyDisplay,
   frequencyDisplay,
 }: QuestionCardProps) {
+  const [reportOpen, setReportOpen] = useState(false);
+
   if (!question || !translation) {
     return null;
   }
@@ -40,10 +41,11 @@ export function QuestionCard({
       transition={{ duration: 0.25, ease: "easeOut" }}
       className="relative rounded-2xl border border-red-900/60 bg-gradient-to-br from-zinc-950 via-black to-red-950/40 p-6 shadow-[0_0_40px_rgba(248,113,113,0.15)] md:p-8"
     >
-      <Link
+      <button
+        type="button"
+        onClick={() => setReportOpen(true)}
         className="absolute w-6 h-6 top-4 right-4 text-xs text-zinc-500 hover:text-white cursor-pointer hover:text-red-500 transition"
-        title="Report this question"
-        href="/report"
+        title={t(language, "reportTitle")}
       >
         <svg
           viewBox="0 0 24.00 24.00"
@@ -68,7 +70,7 @@ export function QuestionCard({
             ></path>{" "}
           </g>
         </svg>
-      </Link>
+      </button>
       <div className="mb-4 flex items-center justify-between text-xs text-zinc-400">
         <span>
           {t(language, "cardCategory")}: {categoryDisplay(question.category)}
@@ -92,6 +94,13 @@ export function QuestionCard({
           <p className="text-zinc-500">{t(language, "revealHint")}</p>
         )}
       </div>
+
+      <ReportModal
+        open={reportOpen}
+        language={language}
+        question={question}
+        onClose={() => setReportOpen(false)}
+      />
     </motion.div>
   );
 }
