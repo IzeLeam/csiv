@@ -8,6 +8,7 @@ import { FilterSelect } from "./components/FilterSelect";
 import { HeaderBar } from "./components/HeaderBar";
 import { QuestionCard } from "./components/QuestionCard";
 import { useQuestions } from "./hooks/useQuestions";
+import Footer from "./components/Footer";
 
 export default function Home() {
   const [language, setLanguage] = useState<Language>("fr");
@@ -206,9 +207,7 @@ export default function Home() {
             {t(language, "footerCta")}
           </motion.a>
 
-          <span className="max-w-xs leading-snug text-zinc-600 sm:text-left">
-            {t(language, "footerText")}
-          </span>
+          <Footer language={language} />
         </footer>
       </div>
     </div>
