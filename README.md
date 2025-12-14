@@ -1,50 +1,25 @@
 # CyberSecurity Interview Vault (CSIV)
 
+<div align="center">
+  <img src="public/logo.png" alt="CSIV Logo" width="150"/>
+</div>
+
 CSIV est une petite web app minimaliste pour s’entraîner rapidement aux questions d’entretien en cybersécurité.
 Tu ouvres le site, une question apparaît, tu réfléchis, puis tu affiches la réponse.
-Tu peux filtrer par catégorie / niveau / fréquence et alterner entre EN / FR.
+Tu peux filtrer par catégorie / niveau / fréquence.
 
-## Usage Rapide
-1. Ouvre [csiv.lucaprc.fr](https://csiv.lucaprc.fr)
-2. Une question tombe, tu réfléchis comme en entretien.
-3. Tu affiches la réponse, tu ajustes tes filtres si besoin.
+## Accessibilité
+1. Site accessible ici via ce lien [csiv.lucaprc.fr](https://csiv.lucaprc.fr).
+2. Langue française et anglaise disponible.
+3. Fonctionnalité de signalement des questions inappropriées ou incorrectes.
 
+## Proposer des questions
 
-## Questions
-Les questions sont définies dans data/questions.json.
-Chaque entrée suit ce format :
-```json
-{
-  "category": "network",          // ex: network, web, cloud, blue-team, etc.
-  "difficulty": "junior",         // ex: junior, intermediate, senior
-  "frequency": "high",            // ex: low, medium, high (fréquence en entretien)
-  "translations": {
-    "en": {
-      "question": "...",
-      "answer": "..."
-    },
-    "fr": {
-      "question": "...",
-      "answer": "..."
-    }
-  }
-}
-```
-
-Tu peux ajouter autant de catégories / difficultés que tu veux.
-Les filtres et compteurs se mettent automatiquement à jour en lisant le JSON.
+Il est possible de proposer des questions via un formulaire directement intégré au site.
+Les propositions complètes sont appréciées, mais une simple question en français ou en anglais est la bienvenue.
 
 ## Stack
 - Next.js 16
 - TypeScript
 - Tailwind CSS
 - Framer Motion
-
-## Contribuer / Proposer des questions
-
-Tu peux proposer de nouvelles questions très facilement :
-
-- directement depuis l’interface, via le bouton "Proposer une question" en bas de page ;
-- ou via un Pull Request en suivant les détails dans le fichier [`CONTRIBUTING.md`](./CONTRIBUTING.md).
-
-Toutes les contributions de questions claires, utiles et réalistes sont les bienvenues.
