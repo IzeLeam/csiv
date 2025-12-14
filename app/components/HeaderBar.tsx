@@ -20,7 +20,7 @@ export function HeaderBar({ language, setLanguage }: HeaderBarProps) {
       transition={{ duration: 0.4, ease: "easeOut" }}
     >
       <div className="flex items-center gap-3">
-        <div className="relative h-8 w-16">
+        <div className="relative h-8 w-8">
           <Image
             src="/logo.png"
             alt="CyberSecurity Interview Vault logo"
