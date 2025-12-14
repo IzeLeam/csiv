@@ -1,7 +1,13 @@
-# CyberSecurity Interview Vault (CSIV)
-
 <div align="center">
-  <img src="public/logo.png" alt="CSIV Logo" width="150"/>
+  <h1>CyberSecurity Interview Vault (CSIV)</h1>
+  <img src="public/logo.png" alt="CSIV Logo" width="200"/>
+
+  <p align="center">
+    A Minimalist Cyber Security Interview Trainer
+    <br />
+    <a href="https://csiv.lucaprc.fr"><strong>Accéder au site web</strong></a>
+    <br />
+  </p>
 </div>
 
 CSIV est une petite web app minimaliste pour s’entraîner rapidement aux questions d’entretien en cybersécurité.
