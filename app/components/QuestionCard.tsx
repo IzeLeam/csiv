@@ -44,7 +44,7 @@ export function QuestionCard({
       <button
         type="button"
         onClick={() => setReportOpen(true)}
-        className="absolute w-6 h-6 top-4 right-4 text-xs text-zinc-500 hover:text-white cursor-pointer hover:text-red-500 transition"
+        className="absolute w-4 h-4 top-4 right-4 text-xs text-zinc-500 hover:text-white cursor-pointer hover:text-red-500 transition"
         title={t(language, "reportTitle")}
       >
         <svg

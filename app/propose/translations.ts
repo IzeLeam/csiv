@@ -3,7 +3,6 @@ export type Language = "en" | "fr";
 export const formTexts: Record<Language, Record<string, string>> = {
   en: {
     title: "Propose a question",
-    backLink: "Back to questions",
     categoryLabel: "Category",
     categoryPlaceholder: "e.g. web, network…",
     levelLabel: "Level",
@@ -32,7 +31,6 @@ export const formTexts: Record<Language, Record<string, string>> = {
   },
   fr: {
     title: "Proposer une question",
-    backLink: "Retourner aux questions",
     categoryLabel: "Catégorie",
     categoryPlaceholder: "ex: web, network…",
     levelLabel: "Niveau",
