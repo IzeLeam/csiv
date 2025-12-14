@@ -58,6 +58,11 @@ export default function Home() {
     if (value.toLowerCase() === "web") return t(language, "categoryWeb");
     if (value.toLowerCase() === "general")
       return t(language, "categoryGeneral");
+    if (value.toLowerCase() === "os") return t(language, "categoryOs");
+    if (value.toLowerCase() === "crypto") return t(language, "categoryCrypto");
+    if (value.toLowerCase() === "cloud") return t(language, "categoryCloud");
+    if (value.toLowerCase() === "blue-team") return t(language, "categoryBlueTeam");
+    if (value.toLowerCase() === "red-team") return t(language, "categoryRedTeam");
     return value;
   };
 
@@ -197,18 +202,7 @@ export default function Home() {
           </motion.div>
         </main>
 
-        <footer className="mt-8 flex flex-col gap-3 text-[10px] text-zinc-500 sm:flex-row sm:items-center sm:justify-between">
-          <motion.a
-            href="/propose"
-            className="inline-flex items-center justify-center rounded-full border border-red-900/70 bg-zinc-950/80 px-4 py-2 text-[11px] font-medium text-zinc-100 shadow-[0_0_18px_rgba(248,113,113,0.4)] transition hover:border-red-500 hover:bg-red-950/40 hover:text-zinc-50"
-            whileHover={{ scale: 1.03 }}
-            whileTap={{ scale: 0.97 }}
-          >
-            {t(language, "footerCta")}
-          </motion.a>
-
-          <Footer language={language} />
-        </footer>
+        <Footer language={language} />
       </div>
     </div>
   );
