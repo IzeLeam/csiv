@@ -2,10 +2,12 @@
 
 import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { motion } from "framer-motion";
 import { formTexts, type Language } from "./translations";
 import { LanguageToggle } from "../components/LanguageToggle";
 import { ConfirmModal } from "../components/ConfirmModal";
+import Footer from "../components/Footer";
 
 type TrimmedForm = {
   category: string;
@@ -28,19 +30,26 @@ export default function ProposeQuestionPage() {
     frQuestion: "",
     frAnswer: "",
   });
-  const [status, setStatus] = useState<"idle" | "submitting" | "success" | "error">("idle");
+  const [status, setStatus] = useState<
+    "idle" | "submitting" | "success" | "error"
+  >("idle");
   const [message, setMessage] = useState<string>("");
   const [remaining, setRemaining] = useState<number>(0);
   const timerRef = useRef<number | null>(null);
   const [confirmOpen, setConfirmOpen] = useState(false);
-  const [pendingPayload, setPendingPayload] = useState<TrimmedForm | null>(null);
+  const [pendingPayload, setPendingPayload] = useState<TrimmedForm | null>(
+    null
+  );
 
   const CLIENT_COOLDOWN = 60;
 
-  const t = (key: keyof (typeof formTexts)[Language]) => formTexts[language][key];
+  const t = (key: keyof (typeof formTexts)[Language]) =>
+    formTexts[language][key];
 
   const handleChange = (
-    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>
+    e: React.ChangeEvent<
+      HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement
+    >
   ) => {
     const { name, value } = e.target;
     setForm((prev) => ({ ...prev, [name]: value }));
@@ -179,27 +188,55 @@ export default function ProposeQuestionPage() {
             void submitProposal(pendingPayload);
           }}
         />
-        <header className="mb-6 flex items-center justify-between gap-4">
-          <h1 className="text-sm font-semibold uppercase tracking-[0.3em] text-red-500">
-            {t("title")}
-          </h1>
+        <motion.header
+          className="mb-8 flex items-center justify-between gap-4"
+          initial={{ opacity: 0, y: -12 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.4, ease: "easeOut" }}
+        >
+          <div className="flex items-center gap-3">
+            <div className="relative h-8 w-8">
+              <Image
+                src="/logo.png"
+                alt="CyberSecurity Interview Vault logo"
+                fill
+                sizes="1024"
+                className="object-cover"
+                priority
+              />
+            </div>
+            <p className="text-xs font-medium uppercase tracking-[0.3em] text-red-600/70">
+              {t("title")}
+            </p>
+          </div>
+
           <div className="flex items-center gap-3">
             <LanguageToggle
               language={language}
-              onToggle={() =>
-                setLanguage((prev) => (prev === "en" ? "fr" : "en"))
-              }
-              size="sm"
+              onToggle={() => setLanguage(language === "en" ? "fr" : "en")}
             />
 
-            <Link
+            <motion.a
               href="/"
-              className="text-[11px] text-zinc-400 underline-offset-4 hover:text-zinc-200 hover:underline"
+              className="flex h-8 w-8 items-center justify-center rounded-full border border-zinc-800/80 bg-zinc-950/70 text-zinc-300 transition hover:border-red-500 hover:text-zinc-50"
             >
-              {t("backLink")}
-            </Link>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width={16}
+                height={16}
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke={"#fff"}
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                >
+                <line x1="19" y1="12" x2="5" y2="12" />
+                <polyline points="12 19 5 12 12 5" />
+              </svg>
+            </motion.a>
           </div>
-        </header>
+        </motion.header>
 
         <motion.form
           onSubmit={handleSubmit}
@@ -210,7 +247,9 @@ export default function ProposeQuestionPage() {
         >
           <div className="grid gap-4 md:grid-cols-3">
             <div className="flex flex-col gap-1 text-[11px]">
-              <label className="font-medium text-zinc-300">{t("categoryLabel")}</label>
+              <label className="font-medium text-zinc-300">
+                {t("categoryLabel")}
+              </label>
               <input
                 name="category"
                 value={form.category}
@@ -220,7 +259,9 @@ export default function ProposeQuestionPage() {
               />
             </div>
             <div className="flex flex-col gap-1 text-[11px]">
-              <label className="font-medium text-zinc-300">{t("levelLabel")}</label>
+              <label className="font-medium text-zinc-300">
+                {t("levelLabel")}
+              </label>
               <select
                 name="difficulty"
                 value={form.difficulty}
@@ -234,7 +275,9 @@ export default function ProposeQuestionPage() {
               </select>
             </div>
             <div className="flex flex-col gap-1 text-[11px]">
-              <label className="font-medium text-zinc-300">{t("frequencyLabel")}</label>
+              <label className="font-medium text-zinc-300">
+                {t("frequencyLabel")}
+              </label>
               <select
                 name="frequency"
                 value={form.frequency}
@@ -251,7 +294,9 @@ export default function ProposeQuestionPage() {
 
           <div className="grid gap-4 md:grid-cols-2">
             <div className="flex flex-col gap-2 text-[11px]">
-              <span className="text-xs font-semibold text-zinc-200">{t("enBlockTitle")}</span>
+              <span className="text-xs font-semibold text-zinc-200">
+                {t("enBlockTitle")}
+              </span>
               <div className="flex flex-col gap-1">
                 <label className="font-medium text-zinc-300">
                   {t("questionLabel")}
@@ -266,7 +311,9 @@ export default function ProposeQuestionPage() {
                 />
               </div>
               <div className="flex flex-col gap-1">
-                <label className="font-medium text-zinc-300">{t("answerLabel")}</label>
+                <label className="font-medium text-zinc-300">
+                  {t("answerLabel")}
+                </label>
                 <textarea
                   name="enAnswer"
                   value={form.enAnswer}
@@ -278,7 +325,9 @@ export default function ProposeQuestionPage() {
             </div>
 
             <div className="flex flex-col gap-2 text-[11px]">
-              <span className="text-xs font-semibold text-zinc-200">{t("frBlockTitle")}</span>
+              <span className="text-xs font-semibold text-zinc-200">
+                {t("frBlockTitle")}
+              </span>
               <div className="flex flex-col gap-1">
                 <label className="font-medium text-zinc-300">
                   {t("questionLabel")}
@@ -293,7 +342,9 @@ export default function ProposeQuestionPage() {
                 />
               </div>
               <div className="flex flex-col gap-1">
-                <label className="font-medium text-zinc-300">{t("answerLabel")}</label>
+                <label className="font-medium text-zinc-300">
+                  {t("answerLabel")}
+                </label>
                 <textarea
                   name="frAnswer"
                   value={form.frAnswer}
@@ -335,6 +386,7 @@ export default function ProposeQuestionPage() {
             </motion.button>
           </div>
         </motion.form>
+      <Footer language={language} />
       </div>
     </div>
   );
