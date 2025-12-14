@@ -392,7 +392,7 @@
   {
     "category": "red-team",
     "difficulty": "intermediate",
-      "frequency": "high",
+    "frequency": "high",
     "translations": {
       "en": {
         "question": "What are the typical phases of a penetration testing engagement?",
@@ -406,8 +406,8 @@
   },
   {
     "category": "red-team",
-      "difficulty": "intermediate",
-      "frequency": "medium",
+    "difficulty": "intermediate",
+    "frequency": "medium",
     "translations": {
       "en": {
         "question": "What is \"pass the hash\" and in which context could it be used during a pentest?",
@@ -421,8 +421,8 @@
   },
   {
     "category": "web",
-      "difficulty": "intermediate",
-      "frequency": "high",
+    "difficulty": "intermediate",
+    "frequency": "high",
     "translations": {
       "en": {
         "question": "What is the OWASP Top 10 and why is it important for web application pentests?",
@@ -435,9 +435,9 @@
     }
   },
   {
-      "category": "web",
-      "difficulty": "intermediate",
-      "frequency": "medium",
+    "category": "web",
+    "difficulty": "intermediate",
+    "frequency": "medium",
     "translations": {
       "en": {
         "question": "How would you test for SQL Injection vulnerabilities in a web application?",
@@ -450,9 +450,9 @@
     }
   },
   {
-      "category": "os",
-      "difficulty": "intermediate",
-      "frequency": "medium",
+    "category": "os",
+    "difficulty": "intermediate",
+    "frequency": "medium",
     "translations": {
       "en": {
         "question": "What is privilege escalation and why is it important after initial access?",
@@ -465,9 +465,9 @@
     }
   },
   {
-      "category": "red-team",
-      "difficulty": "intermediate",
-      "frequency": "medium",
+    "category": "red-team",
+    "difficulty": "intermediate",
+    "frequency": "medium",
     "translations": {
       "en": {
         "question": "What tools would you commonly use for reconnaissance and scanning during a pentest?",
@@ -480,9 +480,9 @@
     }
   },
   {
-      "category": "red-team",
-      "difficulty": "senior",
-      "frequency": "low",
+    "category": "red-team",
+    "difficulty": "senior",
+    "frequency": "low",
     "translations": {
       "en": {
         "question": "What are the legal and ethical considerations one must keep in mind before performing a penetration test?",
@@ -495,9 +495,9 @@
     }
   },
   {
-      "category": "red-team",
-      "difficulty": "senior",
-      "frequency": "low",
+    "category": "red-team",
+    "difficulty": "senior",
+    "frequency": "low",
     "translations": {
       "en": {
         "question": "How do you differentiate between a vulnerability assessment and a full penetration test?",
@@ -510,9 +510,9 @@
     }
   },
   {
-      "category": "web",
-      "difficulty": "intermediate",
-      "frequency": "high",
+    "category": "web",
+    "difficulty": "intermediate",
+    "frequency": "high",
     "translations": {
       "en": {
         "question": "What is Cross-Site Scripting (XSS) and what are the main types?",
@@ -525,9 +525,9 @@
     }
   },
   {
-      "category": "red-team",
-      "difficulty": "senior",
-      "frequency": "medium",
+    "category": "red-team",
+    "difficulty": "senior",
+    "frequency": "medium",
     "translations": {
       "en": {
         "question": "If you gain a shell on a Windows host in a domain environment, what are common steps you'll take to escalate privileges and move laterally?",
@@ -540,9 +540,9 @@
     }
   },
   {
-      "category": "cloud",
-      "difficulty": "intermediate",
-      "frequency": "medium",
+    "category": "cloud",
+    "difficulty": "intermediate",
+    "frequency": "medium",
     "translations": {
       "en": {
         "question": "What specific risks arise when performing a pentest in a cloud environment compared to an on-premise setup?",
@@ -555,9 +555,9 @@
     }
   },
   {
-      "category": "red-team",
-      "difficulty": "intermediate",
-      "frequency": "medium",
+    "category": "red-team",
+    "difficulty": "intermediate",
+    "frequency": "medium",
     "translations": {
       "en": {
         "question": "How do you avoid damaging production systems or data when performing a pentest?",
@@ -570,9 +570,9 @@
     }
   },
   {
-      "category": "red-team",
-      "difficulty": "intermediate",
-      "frequency": "low",
+    "category": "red-team",
+    "difficulty": "intermediate",
+    "frequency": "low",
     "translations": {
       "en": {
         "question": "What is a 'vulnerability scan' and why is it not enough when you're hiring a pentester?",
@@ -585,1503 +585,1428 @@
     }
   },
   {
-        "category": "general",
-        "difficulty": "intermediate",
-        "frequency": "medium",
-        "translations": {
-            "en": {
-                "question": "What is the role of a security analyst in an organization?",
-                "answer": "A security analyst is responsible for designing, implementing, and maintaining an organization's security infrastructure to protect its digital assets from threats and vulnerabilities."
-            },
-            "fr": {
-                "question": "Quel est le rôle d'un analyste de sécurité dans une organisation ?",
-                "answer": "Un analyste de sécurité est responsable de la conception, de la mise en œuvre et de la maintenance de l'infrastructure de sécurité d'une organisation afin de protéger ses actifs numériques contre les menaces et les vulnérabilités."
-            }
-        }
-    },
-    {
-        "category": "general",
-        "difficulty": "easy",
-        "frequency": "high",
-        "translations": {
-            "en": {
-                "question": "What are the three primary goals of security?",
-                "answer": "The three primary goals of security are confidentiality, integrity, and availability (CIA)."
-            },
-            "fr": {
-                "question": "Quels sont les trois principaux objectifs de la sécurité ?",
-                "answer": "Les trois principaux objectifs de la sécurité sont la confidentialité, l'intégrité et la disponibilité (CIA)."
-            }
-        }
-    },
-    {
-        "category": "general",
-        "difficulty": "easy",
-        "frequency": "high",
-        "translations": {
-            "en": {
-                "question": "What is the difference between a threat, vulnerability, and risk?",
-                "answer": "A threat is a potential attack on an organization's assets, a vulnerability is a weakness in a system that can be exploited, and a risk is the likelihood and potential impact of a threat exploiting a vulnerability."
-            },
-            "fr": {
-                "question": "Quelle est la différence entre une menace, une vulnérabilité et un risque ?",
-                "answer": "Une menace est une attaque potentielle contre les actifs d'une organisation, une vulnérabilité est une faiblesse d'un système qui peut être exploitée et un risque est la probabilité et l'impact potentiel d'une menace exploitant une vulnérabilité."
-            }
-        }
-    },
-    {
-        "category": "blue-team",
-        "difficulty": "intermediate",
-        "frequency": "medium",
-        "translations": {
-            "en": {
-                "question": "What is a security incident response plan?",
-                "answer": "A security incident response plan is a set of procedures that outline how an organization will respond to a security incident, such as a data breach or ransomware attack."
-            },
-            "fr": {
-                "question": "Qu'est-ce qu'un plan de réponse aux incidents de sécurité ?",
-                "answer": "Un plan de réponse aux incidents de sécurité est un ensemble de procédures qui décrivent la manière dont une organisation réagira à un incident de sécurité, tel qu'une violation de données ou une attaque de ransomware."
-            }
-        }
-    },
-    {
-        "category": "general",
-        "difficulty": "easy",
-        "frequency": "medium",
-        "translations": {
-            "en": {
-                "question": "What is the difference between a security policy and a security procedure?",
-                "answer": "A security policy is a high-level document that outlines an organization's security objectives and requirements, while a security procedure is a detailed step-by-step guide on how to implement a specific security policy."
-            },
-            "fr": {
-                "question": "Quelle est la différence entre une politique de sécurité et une procédure de sécurité ?",
-                "answer": "Une politique de sécurité est un document de haut niveau qui décrit les objectifs et les exigences de sécurité d'une organisation, tandis qu'une procédure de sécurité est un guide détaillé étape par étape sur la façon de mettre en œuvre une politique de sécurité spécifique."
-            }
-        }
-    },
-    {
-        "category": "general",
-        "difficulty": "easy",
-        "frequency": "medium",
-        "translations": {
-            "en": {
-                "question": "What is NIST?",
-                "answer": "NIST (National Institute of Standards and Technology) is a non-regulatory agency of the US government that provides guidelines, standards, and best practices for information security."
-            },
-            "fr": {
-                "question": "Qu'est-ce que le NIST ?",
-                "answer": "Le NIST (National Institute of Standards and Technology) est une agence non réglementaire du gouvernement américain qui fournit des lignes directrices, des normes et des meilleures pratiques en matière de sécurité de l'information."
-            }
-        }
-    },
-    {
-        "category": "general",
-        "difficulty": "intermediate",
-        "frequency": "medium",
-        "translations": {
-            "en": {
-                "question": "What is the NIST Cybersecurity Framework?",
-                "answer": "The NIST Cybersecurity Framework is a voluntary framework that provides guidelines and best practices for managing and reducing cybersecurity risk."
-            },
-            "fr": {
-                "question": "Qu'est-ce que le cadre de cybersécurité du NIST?",
-                "answer": "Le NIST Cybersecurity Framework est un cadre volontaire qui fournit des lignes directrices et des bonnes pratiques pour gérer et réduire les risques de cybersécurité."
-            }
-        }
-    },
-    {
-        "category": "red-team",
-        "difficulty": "easy",
-        "frequency": "high",
-        "translations": {
-            "en": {
-                "question": "What is a vulnerability scan?",
-                "answer": "A vulnerability scan is an automated process that identifies potential vulnerabilities in a system or network."
-            },
-            "fr": {
-                "question": "Qu'est-ce qu'une analyse de vulnérabilité ?",
-                "answer": "Une analyse de vulnérabilité est un processus automatisé qui identifie les vulnérabilités potentielles d'un système ou d'un réseau."
-            }
-        }
-    },
-    {
-        "category": "red-team",
-        "difficulty": "easy",
-        "frequency": "high",
-        "translations": {
-            "en": {
-                "question": "What is penetration testing?",
-                "answer": "Penetration testing is a simulated cyber attack on a system or network to test its defences and identify potential vulnerabilities."
-            },
-            "fr": {
-                "question": "Qu'est-ce que les tests d'intrusion ?",
-                "answer": "Les tests d'intrusion sont une cyberattaque simulée sur un système ou un réseau pour tester ses défenses et identifier les vulnérabilités potentielles."
-            }
-        }
-    },
-    {
-        "category": "red-team",
-        "difficulty": "easy",
-        "frequency": "high",
-        "translations": {
-            "en": {
-                "question": "What is the difference between a black box, grey box, and white box test?",
-                "answer": "A black box test is a penetration test where the tester does not know the system or network, a grey box test is a penetration test where the tester has   partial knowledge of the system or network, and a white box test is a   penetration test where the tester has full knowledge of the system or network."
-            },
-            "fr": {
-                "question": "Quelle est la différence entre un test en boîte noire, en boîte grise et en boîte blanche ?",
-                "answer": "Un test boîte noire est un test d'intrusion où le testeur ne connaît pas le système ou le réseau, un test boîte grise est un test d'intrusion où le testeur a une connaissance partielle du système ou du réseau, et un test boîte blanche est un test d'intrusion où le testeur a une connaissance complète du système ou du réseau."
-            }
-        }
-    },
-    {
-        "category": "network",
-        "difficulty": "easy",
-        "frequency": "high",
-        "translations": {
-            "en": {
-                "question": "What is a firewall?",
-                "answer": "A firewall is a network security system that monitors and controls incomin and outgoing network traffic based on predetermined security rules."
-            },
-            "fr": {
-                "question": "Qu'est-ce qu'un pare-feu ?",
-                "answer": "Un pare-feu est un système de sécurité réseau qui surveille et contrôle le trafic réseau entrant et sortant en fonction de règles de sécurité prédéterminées."
-            }
-        }
-    },
-    {
-        "category": "network",
-        "difficulty": "intermediate",
-        "frequency": "medium",
-        "translations": {
-            "en": {
-                "question": "What is a DMZ?",
-                "answer": "A DMZ (Demilitarized Zone) is a network segment that separates the Internet from an internal network, providing an additional layer of security."
-            },
-            "fr": {
-                "question": "Qu'est-ce qu'une DMZ ?",
-                "answer": "Une DMZ (zone démilitarisée) est un segment de réseau qui sépare Internet d'un réseau interne, offrant ainsi une couche de sécurité supplémentaire."
-            }
-        }
-    },
-    {
-        "category": "network",
-        "difficulty": "easy",
-        "frequency": "high",
-        "translations": {
-            "en": {
-                "question": "What is a VPN?",
-                "answer": "A VPN (Virtual Private Network) is a technology that allows users to securely connect to a network over the Internet."
-            },
-            "fr": {
-                "question": "Qu'est-ce qu'un VPN ?",
-                "answer": "Un VPN (Virtual Private Network) est une technologie qui permet aux utilisateurs de se connecter en toute sécurité à un réseau via Internet."
-            }
-        }
-    },
-    {
-        "category": "crypto",
-        "difficulty": "easy",
-        "frequency": "high",
-        "translations": {
-            "en": {
-                "question": "What is encryption?",
-                "answer": "Encryption is the process of converting plaintext data into unreadable ciphertext data to protect it from unauthorized access."
-            },
-            "fr": {
-                "question": "Qu'est-ce que le cryptage ?",
-                "answer": "Le cryptage est le processus de conversion des données en clair en données chiffrées illisibles pour les protéger contre tout accès non autorisé."
-            }
-        }
-    },
-    {
-        "category": "crypto",
-        "difficulty": "easy",
-        "frequency": "high",
-        "translations": {
-            "en": {
-                "question": "What is decryption?",
-                "answer": "Decryption is the process of converting ciphertext data back into plaintext data."
-            },
-            "fr": {
-                "question": "Qu'est-ce que le décryptage ?",
-                "answer": "Le déchiffrement est le processus de reconversion des données chiffrées en données en texte brut."
-            }
-        }
-    },
-    {
-        "category": "os",
-        "difficulty": "intermediate",
-        "frequency": "medium",
-        "translations": {
-            "en": {
-                "question": "What is a public key infrastructure (PKI)?",
-                "answer": "A PKI is a system that enables the creation, management, and distribution of public-private key pairs for secure communication."
-            },
-            "fr": {
-                "question": "Qu'est-ce qu'une infrastructure à clé publique (PKI) ?",
-                "answer": "Une PKI est un système qui permet la création, la gestion et la distribution de paires de clés publique-privée pour une communication sécurisée."
-            }
-        }
-    },
-    {
-        "category": "network",
-        "difficulty": "easy",
-        "frequency": "high",
-        "translations": {
-            "en": {
-                "question": "What is a certificate authority (CA)?",
-                "answer": "A CA is an entity that issues digital certificates to verify the identity of individuals, organizations, or devices."
-            },
-            "fr": {
-                "question": "Qu'est-ce qu'une autorité de certification (CA) ?",
-                "answer": "Une autorité de certification est une entité qui émet des certificats numériques pour vérifier l'identité d'individus, d'organisations ou d'appareils."
-            }
-        }
-    },
-    {
-        "category": "crypto",
-        "difficulty": "easy",
-        "frequency": "medium",
-        "translations": {
-            "en": {
-                "question": "What is a digital signature?",
-                "answer": "A digital signature is a cryptographic mechanism that verifies the authenticity and integrity of a message or document."
-            },
-            "fr": {
-                "question": "Qu'est-ce qu'une signature numérique ?",
-                "answer": "Une signature numérique est un mécanisme cryptographique qui vérifie l'authenticité et l'intégrité d'un message ou d'un document."
-            }
-        }
-    },
-    {
-        "category": "crypto",
-        "difficulty": "easy",
-        "frequency": "high",
-        "translations": {
-            "en": {
-                "question": "What is a hash function?",
-                "answer": "A hash function is a mathematical function that takes input data of any size and produces a fixed-size string of characters, known as a message digest."
-            },
-            "fr": {
-                "question": "Qu'est-ce qu'une fonction de hachage ?",
-                "answer": "Une fonction de hachage est une fonction mathématique qui prend des données d'entrée de n'importe quelle taille et produit une chaîne de caractères de taille fixe, appelée résumé de message."
-            }
-        }
-    },
-    {
-        "category": "crypto",
-        "difficulty": "easy",
-        "frequency": "high",
-        "translations": {
-            "en": {
-                "question": "What is SSL/TLS?",
-                "answer": "SSL/TLS (Secure Sockets Layer/Transport Layer Security) is a cryptographic protocol that provides secure communication between a client and a server."
-            },
-            "fr": {
-                "question": "Qu'est-ce que SSL/TLS ?",
-                "answer": "SSL/TLS (Secure Sockets Layer/Transport Layer Security) est un protocole cryptographique qui assure une communication sécurisée entre un client et un serveur."
-            }
-        }
-    },
-    {
-        "category": "network",
-        "difficulty": "easy",
-        "frequency": "high",
-        "translations": {
-            "en": {
-                "question": "What is HTTPS?",
-                "answer": "HTTPS (Hypertext Transfer Protocol Secure) is a secure communication protocol that combines HTTP with SSL/TLS to provide secure communication between a   client and a server."
-            },
-            "fr": {
-                "question": "Qu'est-ce que le HTTPS ?",
-                "answer": "HTTPS (Hypertext Transfer Protocol Secure) est un protocole de communication sécurisé qui combine HTTP avec SSL/TLS pour fournir une communication sécurisée entre un client et un serveur."
-            }
-        }
-    },
-    {
-        "category": "blue-team",
-        "difficulty": "intermediate",
-        "frequency": "medium",
-        "translations": {
-            "en": {
-                "question": "What is a security information and event management (SIEM) system?",
-                "answer": "A SIEM system is a solution that collects, monitors, and analyzes log data from various sources to provide real-time insights into security threats."
-            },
-            "fr": {
-                "question": "Qu'est-ce qu'un système de gestion des informations et des événements de sécurité (SIEM) ?",
-                "answer": "Un système SIEM est une solution qui collecte, surveille et analyse les données de journaux provenant de diverses sources pour fournir des informations en temps réel sur les menaces de sécurité."
-            }
-        }
-    },
-    {
-        "category": "blue-team",
-        "difficulty": "intermediate",
-        "frequency": "high",
-        "translations": {
-            "en": {
-                "question": "What is threat intelligence?",
-                "answer": "Threat intelligence is the process of gathering, analyzing, and sharing information about potential security threats to improve incident response and   threat prevention."
-            },
-            "fr": {
-                "question": "Qu'est-ce que le renseignement sur les menaces ?",
-                "answer": "Le renseignement sur les menaces est le processus de collecte, d'analyse et de partage d'informations sur les menaces de sécurité potentielles afin d'améliorer la réponse aux incidents et la prévention des menaces."
-            }
-        }
-    },
-    {
-        "category": "blue-team",
-        "difficulty": "easy",
-        "frequency": "high",
-        "translations": {
-            "en": {
-                "question": "What is a security operations centre (SOC)?",
-                "answer": "A SOC is a centralized unit that monitors and responds to security incidents in real time."
-            },
-            "fr": {
-                "question": "Qu'est-ce qu'un centre d'opérations de sécurité (SOC) ?",
-                "answer": "Un SOC est une unité centralisée qui surveille et répond aux incidents de sécurité en temps réel."
-            }
-        }
-    },
-    {
-        "category": "blue-team",
-        "difficulty": "intermediate",
-        "frequency": "medium",
-        "translations": {
-            "en": {
-                "question": "What is incident response?",
-                "answer": "Incident response is a systematic approach to identifying, containing, and mitigating the impact of a security incident."
-            },
-            "fr": {
-                "question": "Qu'est-ce que la réponse aux incidents ?",
-                "answer": "La réponse aux incidents est une approche systématique visant à identifier, contenir et atténuer l'impact d'un incident de sécurité."
-            }
-        }
-    },
-    {
-        "category": "blue-team",
-        "difficulty": "intermediate",
-        "frequency": "medium",
-        "translations": {
-            "en": {
-                "question": "What is a disaster recovery plan?",
-                "answer": "A disaster recovery plan is a set of procedures that outline how an organization will recover from a disaster or major outage."
-            },
-            "fr": {
-                "question": "Qu'est-ce qu'un plan de reprise après sinistre ?",
-                "answer": "Un plan de reprise après sinistre est un ensemble de procédures qui décrivent comment une organisation se remettra d'un sinistre ou d'une panne majeure."
-            }
-        }
-    },
-    {
-        "category": "general",
-        "difficulty": "intermediate",
-        "frequency": "low",
-        "translations": {
-            "en": {
-                "question": "What is a business continuity plan?",
-                "answer": "A business continuity plan is a set of procedures that outline how an organization will continue to operate during a disaster or major outage."
-            },
-            "fr": {
-                "question": "Qu'est-ce qu'un plan de continuité d'activité ?",
-                "answer": "Un plan de continuité des activités est un ensemble de procédures qui décrivent comment une organisation continuera à fonctionner en cas de sinistre ou de panne majeure."
-            }
-        }
-    },
-    {
-        "category": "blue-team",
-        "difficulty": "easy",
-        "frequency": "medium",
-        "translations": {
-            "en": {
-                "question": "What is a risk assessment?",
-                "answer": "A risk assessment is a systematic process of identifying, evaluating, and prioritizing potential security risks."
-            },
-            "fr": {
-                "question": "Qu'est-ce qu'une évaluation des risques ?",
-                "answer": "Une évaluation des risques est un processus systématique d'identification, d'évaluation et de priorisation des risques de sécurité potentiels."
-            }
-        }
-    },
-    {
-        "category": "blue-team",
-        "difficulty": "easy",
-        "frequency": "medium",
-        "translations": {
-            "en": {
-                "question": "What is a vulnerability assessment?",
-                "answer": "A vulnerability assessment is a systematic process of identifying and evaluating potential vulnerabilities in a system or network."
-            },
-            "fr": {
-                "question": "Qu'est-ce qu'une évaluation de vulnérabilité ?",
-                "answer": "Une évaluation de vulnérabilité est un processus systématique d'identification et d'évaluation des vulnérabilités potentielles d'un système ou d'un réseau."
-            }
-        }
-    },
-    {
-        "category": "",
-        "difficulty": "",
-        "frequency": "",
-        "translations": {
-            "en": {
-                "question": "What is a compliance audit?",
-                "answer": "A compliance audit is an independent examination and evaluation of an organization's security controls to ensure they meet regulatory or   industry standards."
-            },
-            "fr": {
-                "question": "Qu'est-ce qu'un audit de conformité ?",
-                "answer": "Un audit de conformité est un examen et une évaluation indépendants des contrôles de sécurité d'une organisation pour garantir qu'ils répondent aux normes réglementaires ou industrielles."
-            }
-        }
-    },
-    {
-        "category": "",
-        "difficulty": "",
-        "frequency": "",
-        "translations": {
-            "en": {
-                "question": "What is HIPAA?",
-                "answer": "HIPAA (Health Insurance Portability and Accountability Act) is a US law that governs the protection of sensitive health information."
-            },
-            "fr": {
-                "question": "Qu'est-ce que la loi HIPAA ?",
-                "answer": "HIPAA (Health Insurance Portability and Accountability Act) est une loi américaine qui régit la protection des informations sensibles sur la santé."
-            }
-        }
-    },
-    {
-        "category": "",
-        "difficulty": "",
-        "frequency": "",
-        "translations": {
-            "en": {
-                "question": "What is PCI-DSS?",
-                "answer": "PCI-DSS (Payment Card Industry Data Security Standard) is a set of security standards for organizations that handle credit card information."
-            },
-            "fr": {
-                "question": "Qu'est-ce que PCI-DSS ?",
-                "answer": "PCI-DSS (Payment Card Industry Data Security Standard) est un ensemble de normes de sécurité destinées aux organisations qui gèrent les informations de carte de crédit."
-            }
-        }
-    },
-    {
-        "category": "",
-        "difficulty": "",
-        "frequency": "",
-        "translations": {
-            "en": {
-                "question": "What is GDPR?",
-                "answer": "GDPR (General Data Protection Regulation) is a European Union law that governs the protection of personal data."
-            },
-            "fr": {
-                "question": "Qu'est-ce que le RGPD ?",
-                "answer": "Le RGPD (Règlement Général sur la Protection des Données) est une loi de l'Union européenne qui régit la protection des données personnelles."
-            }
-        }
-    },
-    {
-        "category": "",
-        "difficulty": "",
-        "frequency": "",
-        "translations": {
-            "en": {
-                "question": "What is a security awareness program?",
-                "answer": "A security awareness program is a systematic approach to educating employees about security best practices and risks."
-            },
-            "fr": {
-                "question": "Qu'est-ce qu'un programme de sensibilisation à la sécurité ?",
-                "answer": "Un programme de sensibilisation à la sécurité est une approche systématique visant à informer les employés sur les meilleures pratiques et les risques en matière de sécurité."
-            }
-        }
-    },
-    {
-        "category": "",
-        "difficulty": "",
-        "frequency": "",
-        "translations": {
-            "en": {
-                "question": "What is   phishing?",
-                "answer": "Phishing is a social engineering attack that uses email or messaging to trick individuals into revealing sensitive information."
-            },
-            "fr": {
-                "question": "Qu'est-ce que le phishing ?",
-                "answer": "Le phishing est une attaque d'ingénierie sociale qui utilise le courrier électronique ou la messagerie pour inciter des individus à révéler des informations sensibles."
-            }
-        }
-    },
-    {
-        "category": "",
-        "difficulty": "",
-        "frequency": "",
-        "translations": {
-            "en": {
-                "question": "What is social engineering?",
-                "answer": "Social engineering is a type of attack that uses psychological manipulation to trick individuals into revealing sensitive information."
-            },
-            "fr": {
-                "question": "Qu'est-ce que l'ingénierie sociale ?",
-                "answer": "L'ingénierie sociale est un type d'attaque qui utilise la manipulation psychologique pour inciter les individus à révéler des informations sensibles."
-            }
-        }
-    },
-    {
-        "category": "",
-        "difficulty": "",
-        "frequency": "",
-        "translations": {
-            "en": {
-                "question": "What is a zero-day exploit?",
-                "answer": "A zero-day exploit is a previously unknown vulnerability that is exploited by an attacker before a patch or fix is available."
-            },
-            "fr": {
-                "question": "Qu'est-ce qu'un exploit Zero Day ?",
-                "answer": "Un exploit zero-day est une vulnérabilité jusque-là inconnue qui est exploitée par un attaquant avant qu'un correctif ou un correctif ne soit disponible."
-            }
-        }
-    },
-    {
-        "category": "",
-        "difficulty": "",
-        "frequency": "",
-        "translations": {
-            "en": {
-                "question": "What is a buffer overflow?",
-                "answer": "A buffer overflow is a type of vulnerability that occurs when more data is written to a buffer than it can hold, allowing an attacker to execute   malicious code."
-            },
-            "fr": {
-                "question": "Qu'est-ce qu'un débordement de tampon ?",
-                "answer": "Un débordement de tampon est un type de vulnérabilité qui se produit lorsque plus de données sont écrites dans un tampon qu'il ne peut en contenir, permettant à un attaquant d'exécuter du code malveillant."
-            }
-        }
-    },
-    {
-        "category": "",
-        "difficulty": "",
-        "frequency": "",
-        "translations": {
-            "en": {
-                "question": "What is SQL injection?",
-                "answer": "SQL injectionis a type of vulnerability that occurs when an attacker injects malicious SQL code to extract or modify sensitive data."
-            },
-            "fr": {
-                "question": "Qu'est-ce que l'injection SQL ?",
-                "answer": "L'injection SQL est un type de vulnérabilité qui se produit lorsqu'un attaquant injecte du code SQL malveillant pour extraire ou modifier des données sensibles."
-            }
-        }
-    },
-    {
-        "category": "",
-        "difficulty": "",
-        "frequency": "",
-        "translations": {
-            "en": {
-                "question": "What is cross-site scripting (XSS)?",
-                "answer": "XSS is a type of vulnerability that occurs when an attacker injects malicious code into a website to steal user data or take control of the user's session."
-            },
-            "fr": {
-                "question": "Qu'est-ce que le cross-site scripting (XSS) ?",
-                "answer": "XSS est un type de vulnérabilité qui se produit lorsqu'un attaquant injecte du code malveillant dans un site Web pour voler les données d'un utilisateur ou prendre le contrôle de la session de l'utilisateur."
-            }
-        }
-    },
-    {
-        "category": "",
-        "difficulty": "",
-        "frequency": "",
-        "translations": {
-            "en": {
-                "question": "What is a denial of service (DoS) attack?",
-                "answer": "A DoS attack is a type of attack that attempts to make a system or network unavailable by flooding it with traffic."
-            },
-            "fr": {
-                "question": "Qu'est-ce qu'une attaque par déni de service (DoS) ?",
-                "answer": "Une attaque DoS est un type d'attaque qui tente de rendre un système ou un réseau indisponible en l'inondant de trafic."
-            }
-        }
-    },
-    {
-        "category": "",
-        "difficulty": "",
-        "frequency": "",
-        "translations": {
-            "en": {
-                "question": "What is a distributed denial of service (DDoS) attack?",
-                "answer": "A DDoS attack is a type of attack that uses multiple compromised systems to flood a system or network with traffic."
-            },
-            "fr": {
-                "question": "Qu'est-ce qu'une attaque par déni de service distribué (DDoS) ?",
-                "answer": "Une attaque DDoS est un type d'attaque qui utilise plusieurs systèmes compromis pour inonder un système ou un réseau de trafic."
-            }
-        }
-    },
-    {
-        "category": "",
-        "difficulty": "",
-        "frequency": "",
-        "translations": {
-            "en": {
-                "question": "What is a man-in-the-middle (MITM) attack?",
-                "answer": "A MitM attack is a type of attack that occurs when an attacker intercepts communication between two parties to steal or modify data."
-            },
-            "fr": {
-                "question": "Qu'est-ce qu'une attaque de l'homme du milieu (MITM) ?",
-                "answer": "Une attaque MitM est un type d'attaque qui se produit lorsqu'un attaquant intercepte la communication entre deux parties pour voler ou modifier des données."
-            }
-        }
-    },
-    {
-        "category": "",
-        "difficulty": "",
-        "frequency": "",
-        "translations": {
-            "en": {
-                "question": "What is a Trojan horse?",
-                "answer": "A Trojan horse is a type of malware that disguises itself as legitimate software to gain unauthorized access to a system."
-            },
-            "fr": {
-                "question": "Qu'est-ce qu'un cheval de Troie ?",
-                "answer": "Un cheval de Troie est un type de malware qui se déguise en logiciel légitime pour obtenir un accès non autorisé à un système."
-            }
-        }
-    },
-    {
-        "category": "",
-        "difficulty": "",
-        "frequency": "",
-        "translations": {
-            "en": {
-                "question": "What is ransomware?",
-                "answer": "Ransomware is a type of malware that encrypts files and demands payment in exchange for the decryption key."
-            },
-            "fr": {
-                "question": "Qu'est-ce qu'un ransomware ?",
-                "answer": "Un ransomware est un type de malware qui crypte les fichiers et exige un paiement en échange de la clé de déchiffrement."
-            }
-        }
-    },
-    {
-        "category": "",
-        "difficulty": "",
-        "frequency": "",
-        "translations": {
-            "en": {
-                "question": "What is a botnet?",
-                "answer": "A botnet is a network of compromised systems that can be controlled remotely to conduct DDoS attacks, send spam, or steal sensitive information."
-            },
-            "fr": {
-                "question": "Qu'est-ce qu'un botnet ?",
-                "answer": "Un botnet est un réseau de systèmes compromis qui peuvent être contrôlés à distance pour mener des attaques DDoS, envoyer du spam ou voler des informations sensibles."
-            }
-        }
-    },
-    {
-        "category": "",
-        "difficulty": "",
-        "frequency": "",
-        "translations": {
-            "en": {
-                "question": "What is a worm?",
-                "answer": "A worm is a type of malware that replicates itself to spread to other systems without the need for human interaction."
-            },
-            "fr": {
-                "question": "Qu'est-ce qu'un ver ?",
-                "answer": "Un ver est un type de logiciel malveillant qui se réplique pour se propager à d'autres systèmes sans nécessiter d'interaction humaine."
-            }
-        }
-    },
-    {
-        "category": "",
-        "difficulty": "",
-        "frequency": "",
-        "translations": {
-            "en": {
-                "question": "What is a virus?",
-                "answer": "A virus is a type of malware that attaches itself to a program or file to replicate itself and spread to other systems."
-            },
-            "fr": {
-                "question": "Qu'est-ce qu'un virus ?",
-                "answer": "Un virus est un type de logiciel malveillant qui s'attache à un programme ou à un fichier pour se répliquer et se propager à d'autres systèmes."
-            }
-        }
-    },
-    {
-        "category": "",
-        "difficulty": "",
-        "frequency": "",
-        "translations": {
-            "en": {
-                "question": "What is a rootkit?",
-                "answer": "A rootkit is a type of malware that hides itself and other malicious programs from the operating system and security software."
-            },
-            "fr": {
-                "question": "Qu'est-ce qu'un rootkit ?",
-                "answer": "Un rootkit est un type de malware qui se cache, ainsi que d'autres programmes malveillants, du système d'exploitation et des logiciels de sécurité."
-            }
-        }
-    },
-    {
-        "category": "",
-        "difficulty": "",
-        "frequency": "",
-        "translations": {
-            "en": {
-                "question": "What is a logic bomb?",
-                "answer": "A logic bomb is a type of malware that is designed to execute malicious code when a specific condition is met."
-            },
-            "fr": {
-                "question": "Qu'est-ce qu'une bombe logique ?",
-                "answer": "Une bombe logique est un type de malware conçu pour exécuter du code malveillant lorsqu'une condition spécifique est remplie."
-            }
-        }
-    },
-    {
-        "category": "",
-        "difficulty": "",
-        "frequency": "",
-        "translations": {
-            "en": {
-                "question": "What is a spyware?",
-                "answer": "Spyware is a type of malware that monitors user activity and steals sensitive information without their knowledge or consent."
-            },
-            "fr": {
-                "question": "Qu'est-ce qu'un logiciel espion ?",
-                "answer": "Les logiciels espions sont un type de logiciel malveillant qui surveille l'activité des utilisateurs et vole des informations sensibles à leur insu ou sans leur consentement."
-            }
-        }
-    },
-    {
-        "category": "",
-        "difficulty": "",
-        "frequency": "",
-        "translations": {
-            "en": {
-                "question": "What is adware?",
-                "answer": "Adware is a type of malware that displays unwanted advertisements on a system."
-            },
-            "fr": {
-                "question": "Qu'est-ce qu'un logiciel publicitaire ?",
-                "answer": "Les logiciels publicitaires sont un type de malware qui affiche des publicités indésirables sur un système."
-            }
-        }
-    },
-    {
-        "category": "",
-        "difficulty": "",
-        "frequency": "",
-        "translations": {
-            "en": {
-                "question": "What is a keylogger?",
-                "answer": "A keylogger is a type of malware that records user keystrokes to steal sensitive information such as passwords and credit card numbers."
-            },
-            "fr": {
-                "question": "Qu'est-ce qu'un enregistreur de frappe ?",
-                "answer": "Un keylogger est un type de malware qui enregistre les frappes des utilisateurs pour voler des informations sensibles telles que des mots de passe et des numéros de carte de crédit."
-            }
-        }
-    },
-    {
-        "category": "",
-        "difficulty": "",
-        "frequency": "",
-        "translations": {
-            "en": {
-                "question": "What is a backdoor?",
-                "answer": "A backdoor is a type of malware that provides unauthorized access to a system or network."
-            },
-            "fr": {
-                "question": "Qu'est-ce qu'une porte dérobée ?",
-                "answer": "Une porte dérobée est un type de malware qui fournit un accès non autorisé à un système ou un réseau."
-            }
-        }
-    },
-    {
-        "category": "",
-        "difficulty": "",
-        "frequency": "",
-        "translations": {
-            "en": {
-                "question": "What is a digital certificate?",
-                "answer": "A digital certificate is an electronic document that verifies the identity of an individual, organization, or device."
-            },
-            "fr": {
-                "question": "Qu'est-ce qu'un certificat numérique ?",
-                "answer": "Un certificat numérique est un document électronique qui vérifie l'identité d'un individu, d'une organisation ou d'un appareil."
-            }
-        }
-    },
-    {
-        "category": "",
-        "difficulty": "",
-        "frequency": "",
-        "translations": {
-            "en": {
-                "question": "What is a public key?",
-                "answer": "A public key is a cryptographic key that is used to encrypt data that can only be decrypted with a corresponding private key."
-            },
-            "fr": {
-                "question": "Qu'est-ce qu'une clé publique ?",
-                "answer": "Une clé publique est une clé cryptographique utilisée pour chiffrer des données qui ne peuvent être déchiffrées qu'avec une clé privée correspondante."
-            }
-        }
-    },
-    {
-        "category": "",
-        "difficulty": "",
-        "frequency": "",
-        "translations": {
-            "en": {
-                "question": "What is a private key?",
-                "answer": "A private key is a cryptographic key that is used to decrypt data that was encrypted with a corresponding public key."
-            },
-            "fr": {
-                "question": "Qu'est-ce qu'une clé privée ?",
-                "answer": "Une clé privée est une clé cryptographique utilisée pour déchiffrer des données chiffrées avec une clé publique correspondante."
-            }
-        }
-    },
-    {
-        "category": "",
-        "difficulty": "",
-        "frequency": "",
-        "translations": {
-            "en": {
-                "question": "What is a hybrid cloud?",
-                "answer": "A hybrid cloud is a cloud computing environment that combines on-premises infrastructure with public cloud services."
-            },
-            "fr": {
-                "question": "Qu'est-ce qu'un cloud hybride ?",
-                "answer": "Un cloud hybride est un environnement de cloud computing qui combine une infrastructure sur site avec des services de cloud public."
-            }
-        }
-    },
-    {
-        "category": "",
-        "difficulty": "",
-        "frequency": "",
-        "translations": {
-            "en": {
-                "question": "What is a cloud security gateway?",
-                "answer": "A cloud security gateway is a security solution that monitors and controls traffic between a cloud service and the Internet."
-            },
-            "fr": {
-                "question": "Qu'est-ce qu'une passerelle de sécurité cloud ?",
-                "answer": "Une passerelle de sécurité cloud est une solution de sécurité qui surveille et contrôle le trafic entre un service cloud et Internet."
-            }
-        }
-    },
-    {
-        "category": "",
-        "difficulty": "",
-        "frequency": "",
-        "translations": {
-            "en": {
-                "question": "What is a cloud access security broker (CASB)?",
-                "answer": "A CASB is a security solution that monitors and controls cloud service usage to detect and prevent security threats."
-            },
-            "fr": {
-                "question": "Qu'est-ce qu'un courtier de sécurité d'accès au cloud (CASB) ?",
-                "answer": "Un CASB est une solution de sécurité qui surveille et contrôle l'utilisation des services cloud pour détecter et prévenir les menaces de sécurité."
-            }
-        }
-    },
-    {
-        "category": "",
-        "difficulty": "",
-        "frequency": "",
-        "translations": {
-            "en": {
-                "question": "What is a security orchestration, automation, and response (SOAR) solution?",
-                "answer": "A SOAR solution is a security solution that automates and streamlines incident response processes to improve efficiency and effectiveness."
-            },
-            "fr": {
-                "question": "Qu'est-ce qu'une solution d'orchestration, d'automatisation et de réponse de sécurité (SOAR) ?",
-                "answer": "Une solution SOAR est une solution de sécurité qui automatise et rationalise les processus de réponse aux incidents pour améliorer l'efficience et l'efficacité."
-            }
-        }
-    },
-    {
-        "category": "",
-        "difficulty": "",
-        "frequency": "",
-        "translations": {
-            "en": {
-                "question": "What is a managed security service provider (MSSP)?",
-                "answer": "An MSSP is a third-party provider that offers security services, such as monitoring and incident response, to customers."
-            },
-            "fr": {
-                "question": "Qu'est-ce qu'un fournisseur de services de sécurité gérés (MSSP) ?",
-                "answer": "Un MSSP est un fournisseur tiers qui propose aux clients des services de sécurité, tels que la surveillance et la réponse aux incidents."
-            }
-        }
-    },
-    {
-        "category": "",
-        "difficulty": "",
-        "frequency": "",
-        "translations": {
-            "en": {
-                "question": "What is a security incident response team (SIRT)?",
-                "answer": "A SIRT is a team of security professionals that responds to security incidents to contain and mitigate the impact of the incident."
-            },
-            "fr": {
-                "question": "Qu'est-ce qu'une équipe de réponse aux incidents de sécurité (SIRT) ?",
-                "answer": "Un SIRT est une équipe de professionnels de la sécurité qui répond aux incidents de sécurité pour contenir et atténuer l'impact de l'incident."
-            }
-        }
-    },
-    {
-        "category": "",
-        "difficulty": "",
-        "frequency": "",
-        "translations": {
-            "en": {
-                "question": "What is a security operations centre (SOC) as a service?",
-                "answer": "A SOC as a service is a managed security service that provides 24/7 security monitoring and incident response to customers."
-            },
-            "fr": {
-                "question": "Qu'est-ce qu'un centre d'opérations de sécurité (SOC) en tant que service ?",
-                "answer": "Un SOC en tant que service est un service de sécurité géré qui fournit aux clients une surveillance de la sécurité et une réponse aux incidents 24h/24 et 7j/7."
-            }
-        }
-    },
-    {
-        "category": "",
-        "difficulty": "",
-        "frequency": "",
-        "translations": {
-            "en": {
-                "question": "What is compliance as a service?",
-                "answer": "Compliance as a service is a managed service that helps organizations comply with regulatory requirements and industry standards."
-            },
-            "fr": {
-                "question": "Qu'est-ce que la conformité en tant que service ?",
-                "answer": "La conformité en tant que service est un service géré qui aide les organisations à se conformer aux exigences réglementaires et aux normes industrielles."
-            }
-        }
-    },
-    {
-        "category": "",
-        "difficulty": "",
-        "frequency": "",
-        "translations": {
-            "en": {
-                "question": "What is penetration testing as a service?",
-                "answer": "Penetration testing as a service is a managed service that provides recurring penetration testing to identify vulnerabilities and improve security posture."
-            },
-            "fr": {
-                "question": "Qu'est-ce que le test d'intrusion en tant que service ?",
-                "answer": "Les tests d'intrusion en tant que service sont un service géré qui fournit des tests d'intrusion récurrents pour identifier les vulnérabilités et améliorer la posture de sécurité."
-            }
-        }
-    },
-    {
-        "category": "",
-        "difficulty": "",
-        "frequency": "",
-        "translations": {
-            "en": {
-                "question": "What is vulnerability management as a service?",
-                "answer": "Vulnerability management as a service is a managed service that identifies and prioritizes vulnerabilities, provides remediation guidance, and tracks   progress."
-            },
-            "fr": {
-                "question": "Qu'est-ce que la gestion des vulnérabilités en tant que service ?",
-                "answer": "La gestion des vulnérabilités en tant que service est un service géré qui identifie et hiérarchise les vulnérabilités, fournit des conseils de remédiation et suit les progrès."
-            }
-        }
-    },
-    {
-        "category": "",
-        "difficulty": "",
-        "frequency": "",
-        "translations": {
-            "en": {
-                "question": "What is threat intelligence as a service?",
-                "answer": "Threat intelligence as a service is a managed service that provides real-time threat intelligence feeds to help organizations improve their incident response and threat prevention capabilities."
-            },
-            "fr": {
-                "question": "Qu'est-ce que le renseignement sur les menaces en tant que service ?",
-                "answer": "Le Threat Intelligence as a Service est un service géré qui fournit des flux de renseignements sur les menaces en temps réel pour aider les organisations à améliorer leurs capacités de réponse aux incidents et de prévention des menaces."
-            }
-        }
-    },
-    {
-        "category": "",
-        "difficulty": "",
-        "frequency": "",
-        "translations": {
-            "en": {
-                "question": "What is a security awareness training as a service?",
-                "answer": "Security awareness training as a service is a managed service that provides regular security awareness training to employees to improve their security knowledge and behaviours."
-            },
-            "fr": {
-                "question": "Qu'est-ce qu'une formation de sensibilisation à la sécurité en tant que service ?",
-                "answer": "La formation de sensibilisation à la sécurité en tant que service est un service géré qui propose régulièrement une formation de sensibilisation à la sécurité aux employés afin d'améliorer leurs connaissances et leurs comportements en matière de sécurité."
-            }
-        }
-    },
-    {
-        "category": "",
-        "difficulty": "",
-        "frequency": "",
-        "translations": {
-            "en": {
-                "question": "What is a cloud workload protection platform (CWPP)?",
-                "answer": "A CWPP is a security solution that protects cloud-native applications and workloads."
-            },
-            "fr": {
-                "question": "Qu'est-ce qu'une plateforme de protection des charges de travail cloud (CWPP) ?",
-                "answer": "Un CWPP est une solution de sécurité qui protège les applications et charges de travail cloud natives."
-            }
-        }
-    },
-    {
-        "category": "",
-        "difficulty": "",
-        "frequency": "",
-        "translations": {
-            "en": {
-                "question": "What is a cloud security posture management (CSPM)?",
-                "answer": "A CSPM is a security solution that provides visibility and control over cloud security posture to identify and remediate security risks."
-            },
-            "fr": {
-                "question": "Qu'est-ce qu'une gestion de la posture de sécurité du cloud (CSPM) ?",
-                "answer": "Un CSPM est une solution de sécurité qui offre une visibilité et un contrôle sur la posture de sécurité du cloud pour identifier et remédier aux risques de sécurité."
-            }
-        }
-    },
-    {
-        "category": "",
-        "difficulty": "",
-        "frequency": "",
-        "translations": {
-            "en": {
-                "question": "What is a cloud access security broker (CASB)?",
-                "answer": "A CASB is a security solution that monitors and controls cloud service usage to detect and prevent security threats."
-            },
-            "fr": {
-                "question": "Qu'est-ce qu'un courtier de sécurité d'accès au cloud (CASB) ?",
-                "answer": "Un CASB est une solution de sécurité qui surveille et contrôle l'utilisation des services cloud pour détecter et prévenir les menaces de sécurité."
-            }
-        }
-    },
-    {
-        "category": "",
-        "difficulty": "",
-        "frequency": "",
-        "translations": {
-            "en": {
-                "question": "What is cloud infrastructure entitlement management (CIEM)?",
-                "answer": "A CIEM is a security solution that provides visibility and control over cloud infrastructure entitlements to prevent privilege escalation and reduce the attack surface."
-            },
-            "fr": {
-                "question": "Qu'est-ce que la gestion des droits d'accès à l'infrastructure cloud (CIEM) ?",
-                "answer": "Un CIEM est une solution de sécurité qui offre une visibilité et un contrôle sur les droits de l'infrastructure cloud pour empêcher l'élévation des privilèges et réduire la surface d'attaque."
-            }
-        }
-    },
-    {
-        "category": "",
-        "difficulty": "",
-        "frequency": "",
-        "translations": {
-            "en": {
-                "question": "What is cloud-based security information and event management (SIEM)?",
-                "answer": "A cloud-based SIEM is a security solution that collects, monitors, and analyzes log data from cloud and on-premises sources to provide real-time insights into security threats."
-            },
-            "fr": {
-                "question": "Qu'est-ce que la gestion des informations et des événements de sécurité dans le cloud (SIEM) ?",
-                "answer": "Un SIEM basé sur le cloud est une solution de sécurité qui collecte, surveille et analyse les données de journaux provenant de sources cloud et sur site pour fournir des informations en temps réel sur les menaces de sécurité."
-            }
-        }
-    },
-    {
-        "category": "",
-        "difficulty": "",
-        "frequency": "",
-        "translations": {
-            "en": {
-                "question": "What is a cloud-based security orchestration, automation, and response (SOAR)?",
-                "answer": "A cloud-based SOAR is a security solution that automates and streamlines incident response processes to improve efficiency and effectiveness."
-            },
-            "fr": {
-                "question": "Qu'est-ce qu'une orchestration, une automatisation et une réponse de sécurité basées sur le cloud (SOAR) ?",
-                "answer": "Un SOAR basé sur le cloud est une solution de sécurité qui automatise et rationalise les processus de réponse aux incidents pour améliorer l'efficience et l'efficacité."
-            }
-        }
-    },
-    {
-        "category": "",
-        "difficulty": "",
-        "frequency": "",
-        "translations": {
-            "en": {
-                "question": "What is a cloud-based managed security service provider (MSSP)?",
-                "answer": "A cloud-based MSSP is a third-party provider that offers cloud-based security services, such as monitoring and incident response, to customers."
-            },
-            "fr": {
-                "question": "Qu'est-ce qu'un fournisseur de services de sécurité gérés (MSSP) basé sur le cloud ?",
-                "answer": "Un MSSP basé sur le cloud est un fournisseur tiers qui propose aux clients des services de sécurité basés sur le cloud, tels que la surveillance et la réponse aux incidents."
-            }
-        }
-    },
-    {
-        "category": "",
-        "difficulty": "",
-        "frequency": "",
-        "translations": {
-            "en": {
-                "question": "What is a cloud-based security incident response team (SIRT)?",
-                "answer": "A cloud-based SIRT is a team of security professionals that responds to security incidents in cloud environments to contain and mitigate the impact of the incident."
-            },
-            "fr": {
-                "question": "Qu'est-ce qu'une équipe de réponse aux incidents de sécurité (SIRT) basée sur le cloud ?",
-                "answer": "Un SIRT basé sur le cloud est une équipe de professionnels de la sécurité qui répond aux incidents de sécurité dans les environnements cloud pour contenir et atténuer l'impact de l'incident."
-            }
-        }
-    },
-    {
-        "category": "",
-        "difficulty": "",
-        "frequency": "",
-        "translations": {
-            "en": {
-                "question": "What is a cloud-based security operations centre (SOC)?",
-                "answer": "A cloud-based SOC is a centralized unit that monitors and responds to security incidents in cloud environments in real time."
-            },
-            "fr": {
-                "question": "Qu'est-ce qu'un centre d'opérations de sécurité (SOC) basé sur le cloud ?",
-                "answer": "Un SOC basé sur le cloud est une unité centralisée qui surveille et répond en temps réel aux incidents de sécurité dans les environnements cloud."
-            }
-        }
-    },
-    {
-        "category": "",
-        "difficulty": "",
-        "frequency": "",
-        "translations": {
-            "en": {
-                "question": "What is cloud-based cloud security monitoring?",
-                "answer": "Cloud-based cloud security monitoring is a solution that provides real-time visibility into cloud security threats and risks"
-            },
-            "fr": {
-                "question": "Qu'est-ce que la surveillance de la sécurité du cloud basée sur le cloud ?",
-                "answer": "La surveillance de la sécurité du cloud basée sur le cloud est une solution qui offre une visibilité en temps réel sur les menaces et les risques de sécurité du cloud."
-            }
-        }
-    },
-    {
-        "category": "",
-        "difficulty": "",
-        "frequency": "",
-        "translations": {
-            "en": {
-                "question": "What is a cloud-based vulnerability management system?",
-                "answer": "A cloud-based vulnerability management system is a solution that identifies, classifies, and prioritizes vulnerabilities in cloud-based systems and applications."
-            },
-            "fr": {
-                "question": "Qu'est-ce qu'un système de gestion des vulnérabilités basé sur le cloud ?",
-                "answer": "Un système de gestion des vulnérabilités basé sur le cloud est une solution qui identifie, classe et hiérarchise les vulnérabilités des systèmes et applications basés sur le cloud."
-            }
-        }
-    },
-    {
-        "category": "",
-        "difficulty": "",
-        "frequency": "",
-        "translations": {
-            "en": {
-                "question": "What is a cloud-based threat intelligence platform?",
-                "answer": "A cloud-based threat intelligence platform is a solution that provides real-time threat intelligence feeds to help organizations improve their incident response and threat prevention capabilities."
-            },
-            "fr": {
-                "question": "Qu'est-ce qu'une plateforme cloud de renseignement sur les menaces ?",
-                "answer": "Une plateforme cloud de renseignements sur les menaces est une solution qui fournit des flux de renseignements sur les menaces en temps réel pour aider les organisations à améliorer leurs capacités de réponse aux incidents et de prévention des menaces."
-            }
-        }
-    },
-    {
-        "category": "",
-        "difficulty": "",
-        "frequency": "",
-        "translations": {
-            "en": {
-                "question": "What is a cloud-based security awareness training program?",
-                "answer": "A cloud-based security awareness training program is a solution that provides regular security awareness training to employees to improve their security knowledge and behaviours."
-            },
-            "fr": {
-                "question": "Qu'est-ce qu'un programme de formation de sensibilisation à la sécurité basé sur le cloud ?",
-                "answer": "Un programme de formation de sensibilisation à la sécurité basé sur le cloud est une solution qui propose aux employés une formation régulière de sensibilisation à la sécurité afin d'améliorer leurs connaissances et leurs comportements en matière de sécurité."
-            }
-        }
-    },
-    {
-        "category": "",
-        "difficulty": "",
-        "frequency": "",
-        "translations": {
-            "en": {
-                "question": "What is a cloud-based incident response playbook?",
-                "answer": "A cloud-based incident response playbook is a pre-defined set of procedures and guidelines for responding to security incidents in cloud environments."
-            },
-            "fr": {
-                "question": "Qu'est-ce qu'un playbook de réponse aux incidents basé sur le cloud ?",
-                "answer": "Un playbook de réponse aux incidents basé sur le cloud est un ensemble prédéfini de procédures et de lignes directrices pour répondre aux incidents de sécurité dans les environnements cloud."
-            }
-        }
-    },
-    {
-        "category": "",
-        "difficulty": "",
-        "frequency": "",
-        "translations": {
-            "en": {
-                "question": "What are cloud-based security metrics and reporting?",
-                "answer": "Cloud-based security metrics and reporting is a solution that provides real-time visibility into cloud security posture, risk, and compliance."
-            },
-            "fr": {
-                "question": "Que sont les mesures de sécurité et les rapports basés sur le cloud ?",
-                "answer": "Les mesures et rapports de sécurité basés sur le cloud sont une solution qui offre une visibilité en temps réel sur l'état de la sécurité, les risques et la conformité du cloud."
-            }
-        }
-    },
-    {
-        "category": "",
-        "difficulty": "",
-        "frequency": "",
-        "translations": {
-            "en": {
-                "question": "What is cloud-based compliance and risk management?",
-                "answer": "Cloud-based compliance and risk management is a solution that helps organizations manage risk and comply with regulatory requirements in cloud environments."
-            },
-            "fr": {
-                "question": "Qu'est-ce que la gestion des risques et de la conformité basée sur le cloud ?",
-                "answer": "La gestion de la conformité et des risques basée sur le cloud est une solution qui aide les organisations à gérer les risques et à se conformer aux exigences réglementaires dans les environnements cloud."
-            }
-        }
-    },
-    {
-        "category": "",
-        "difficulty": "",
-        "frequency": "",
-        "translations": {
-            "en": {
-                "question": "What is a cloud-based identity and access management (IAM)?",
-                "answer": "Cloud-based IAM is a solution that manages identities, access, and privileges in cloud environments to prevent unauthorized access and data breaches."
-            },
-            "fr": {
-                "question": "Qu'est-ce qu'une gestion des identités et des accès (IAM) basée sur le cloud ?",
-                "answer": "L'IAM basé sur le cloud est une solution qui gère les identités, les accès et les privilèges dans les environnements cloud pour empêcher les accès non autorisés et les violations de données."
-            }
-        }
-    },
-    {
-        "category": "",
-        "difficulty": "",
-        "frequency": "",
-        "translations": {
-            "en": {
-                "question": "What is a cloud-based single sign-on (SSO)?",
-                "answer": "Cloud-based SSO is a solution that allows users to access multiple cloud-based applications and services with a single set of login credentials."
-            },
-            "fr": {
-                "question": "Qu'est-ce qu'une authentification unique (SSO) basée sur le cloud ?",
-                "answer": "Le SSO basé sur le cloud est une solution qui permet aux utilisateurs d'accéder à plusieurs applications et services basés sur le cloud avec un seul ensemble d'informations de connexion."
-            }
-        }
-    },
-    {
-        "category": "",
-        "difficulty": "",
-        "frequency": "",
-        "translations": {
-            "en": {
-                "question": "What is a cloud-based multi-factor authentication (MFA)?",
-                "answer": "Cloud-based MFA is a solution that adds a layer of security to the authentication process by requiring users to provide additional verification factors."
-            },
-            "fr": {
-                "question": "Qu'est-ce qu'une authentification multifacteur (MFA) basée sur le cloud ?",
-                "answer": "La MFA basée sur le cloud est une solution qui ajoute une couche de sécurité au processus d'authentification en obligeant les utilisateurs à fournir des facteurs de vérification supplémentaires."
-            }
-        }
-    },
-    {
-        "category": "",
-        "difficulty": "",
-        "frequency": "",
-        "translations": {
-            "en": {
-                "question": "What is a cloud-based encryption?",
-                "answer": "Cloud-based encryption is a solution that protects data in transit and at rest in cloud environments using advanced encryption algorithms."
-            },
-            "fr": {
-                "question": "Qu'est-ce qu'un cryptage basé sur le cloud ?",
-                "answer": "Le chiffrement basé sur le cloud est une solution qui protège les données en transit et au repos dans les environnements cloud à l'aide d'algorithmes de chiffrement avancés."
-            }
-        }
-    },
-    {
-        "category": "",
-        "difficulty": "",
-        "frequency": "",
-        "translations": {
-            "en": {
-                "question": "What is cloud-based key management?",
-                "answer": "Cloud-based key management is a solution that securely manages encryption keys in cloud environments to prevent unauthorized access to encrypted data."
-            },
-            "fr": {
-                "question": "Qu'est-ce que la gestion des clés basée sur le cloud ?",
-                "answer": "La gestion des clés basée sur le cloud est une solution qui gère en toute sécurité les clés de chiffrement dans les environnements cloud pour empêcher tout accès non autorisé aux données chiffrées."
-            }
-        }
-    },
-    {
-        "category": "",
-        "difficulty": "",
-        "frequency": "",
-        "translations": {
-            "en": {
-                "question": "What is a cloud-based data loss prevention (DLP)?",
-                "answer": "Cloud-based DLP is a solution that monitors and controls data in cloud environments to prevent unauthorized data exfiltration and data breaches."
-            },
-            "fr": {
-                "question": "Qu'est-ce qu'une prévention contre la perte de données (DLP) basée sur le cloud ?",
-                "answer": "Le DLP basé sur le cloud est une solution qui surveille et contrôle les données dans les environnements cloud pour empêcher l'exfiltration de données non autorisée et les violations de données."
-            }
-        }
-    },
-    {
-        "category": "",
-        "difficulty": "",
-        "frequency": "",
-        "translations": {
-            "en": {
-                "question": "What is a cloud-based cloud access security broker (CASB)?",
-                "answer": "Cloud-based CASB is a solution that monitors and controls cloud service usage to detect and prevent security threats."
-            },
-            "fr": {
-                "question": "Qu'est-ce qu'un courtier de sécurité d'accès au cloud (CASB) basé sur le cloud ?",
-                "answer": "CASB basé sur le cloud est une solution qui surveille et contrôle l'utilisation des services cloud pour détecter et prévenir les menaces de sécurité."
-            }
-        }
-    },
-    {
-        "category": "",
-        "difficulty": "",
-        "frequency": "",
-        "translations": {
-            "en": {
-                "question": "What is a cloud-based cloud workload protection platform (CWPP)?",
-                "answer": "Cloud-based CWPP is a solution that protects cloud-native applications and workloads."
-            },
-            "fr": {
-                "question": "Qu'est-ce qu'une plateforme de protection des charges de travail cloud (CWPP) basée sur le cloud ?",
-                "answer": "CWPP basé sur le cloud est une solution qui protège les applications et les charges de travail cloud natives."
-            }
-        }
-    },
-    {
-        "category": "",
-        "difficulty": "",
-        "frequency": "",
-        "translations": {
-            "en": {
-                "question": "What is a cloud-based cloud security posture management (CSPM)?",
-                "answer": "Cloud-based CSPM is a solution that provides visibility and control over cloud security posture to identify and remediate security risks."
-            },
-            "fr": {
-                "question": "Qu'est-ce qu'une gestion de la posture de sécurité du cloud (CSPM) basée sur le cloud ?",
-                "answer": "CSPM basé sur le cloud est une solution qui offre une visibilité et un contrôle sur l'état de sécurité du cloud pour identifier et remédier aux risques de sécurité."
-            }
-        }
-    },
-    {
-        "category": "",
-        "difficulty": "",
-        "frequency": "",
-        "translations": {
-            "en": {
-                "question": "What is a cloud-based cloud infrastructure entitlement management (CIEM)?",
-                "answer": "Cloud-based CIEM is a solution that provides visibility and control over cloud infrastructure entitlements to prevent privilege escalation and reduce the attack surface."
-            },
-            "fr": {
-                "question": "Qu'est-ce qu'une gestion des droits d'accès à l'infrastructure cloud (CIEM) basée sur le cloud ?",
-                "answer": "CIEM basé sur le cloud est une solution qui offre une visibilité et un contrôle sur les droits de l'infrastructure cloud pour empêcher l'élévation des privilèges et réduire la surface d'attaque."
-            }
-        }
-    },
-    {
-        "category": "",
-        "difficulty": "",
-        "frequency": "",
-        "translations": {
-            "en": {
-                "question": "What is a cloud-based cloud security governance?",
-                "answer": "Cloud-based cloud security governance is a solution that provides a framework for managing cloud security risks and compliance across an organization."
-            },
-            "fr": {
-                "question": "Qu'est-ce qu'une gouvernance de la sécurité du cloud basée sur le cloud ?",
-                "answer": "La gouvernance de la sécurité du cloud basée sur le cloud est une solution qui fournit un cadre pour gérer les risques de sécurité et la conformité du cloud au sein d'une organisation."
-            }
-        }
-    },
-    {
-        "category": "",
-        "difficulty": "",
-        "frequency": "",
-        "translations": {
-            "en": {
-                "question": "What is cloud-based cloud risk management?",
-                "answer": "Cloud-based cloud risk management is a solution that identifies, assesses, and prioritizes cloud security risks to inform business decisions."
-            },
-            "fr": {
-                "question": "Qu'est-ce que la gestion des risques cloud basée sur le cloud ?",
-                "answer": "La gestion des risques cloud basée sur le cloud est une solution qui identifie, évalue et hiérarchise les risques de sécurité cloud pour éclairer les décisions commerciales."
-            }
-        }
-    },
-    {
-        "category": "",
-        "difficulty": "",
-        "frequency": "",
-        "translations": {
-            "en": {
-                "question": "What is cloud-based cloud compliance management?",
-                "answer": "Cloud-based cloud compliance management is a solution that helps organizations manage compliance with regulatory requirements in cloud environments."
-            },
-            "fr": {
-                "question": "Qu'est-ce que la gestion de la conformité cloud basée sur le cloud ?",
-                "answer": "La gestion de la conformité cloud basée sur le cloud est une solution qui aide les organisations à gérer la conformité aux exigences réglementaires dans les environnements cloud."
-            }
-        }
-    },
-    {
-        "category": "",
-        "difficulty": "",
-        "frequency": "",
-        "translations": {
-            "en": {
-                "question": "What is cloud-based cloud audit management?",
-                "answer": "Cloud-based cloud audit management is a solution that provides a framework for managing cloud security audits and assessments."
-            },
-            "fr": {
-                "question": "Qu'est-ce que la gestion des audits cloud basée sur le cloud ?",
-                "answer": "La gestion des audits cloud basée sur le cloud est une solution qui fournit un cadre pour gérer les audits et les évaluations de sécurité cloud."
-            }
-        }
-    },
-    {
-        "category": "",
-        "difficulty": "",
-        "frequency": "",
-        "translations": {
-            "en": {
-                "question": "What is cloud-based cloud security analytics?",
-                "answer": "Cloud-based cloud security analytics is a solution that provides real-time insights into cloud security threats and risks using advanced analytics and machine learning."
-            },
-            "fr": {
-                "question": "Qu'est-ce que l'analyse de sécurité cloud basée sur le cloud ?",
-                "answer": "L'analyse de la sécurité du cloud basée sur le cloud est une solution qui fournit des informations en temps réel sur les menaces et les risques de sécurité du cloud à l'aide d'analyses avancées et d'apprentissage automatique."
-            }
-        }
+    "category": "general",
+    "difficulty": "intermediate",
+    "frequency": "medium",
+    "translations": {
+      "en": {
+        "question": "What is the role of a security analyst in an organization?",
+        "answer": "A security analyst is responsible for designing, implementing, and maintaining an organization's security infrastructure to protect its digital assets from threats and vulnerabilities."
+      },
+      "fr": {
+        "question": "Quel est le rôle d'un analyste de sécurité dans une organisation ?",
+        "answer": "Un analyste de sécurité est responsable de la conception, de la mise en œuvre et de la maintenance de l'infrastructure de sécurité d'une organisation afin de protéger ses actifs numériques contre les menaces et les vulnérabilités."
+      }
     }
+  },
+  {
+    "category": "general",
+    "difficulty": "junior",
+    "frequency": "high",
+    "translations": {
+      "en": {
+        "question": "What are the three primary goals of security?",
+        "answer": "The three primary goals of security are confidentiality, integrity, and availability (CIA)."
+      },
+      "fr": {
+        "question": "Quels sont les trois principaux objectifs de la sécurité ?",
+        "answer": "Les trois principaux objectifs de la sécurité sont la confidentialité, l'intégrité et la disponibilité (CIA)."
+      }
+    }
+  },
+  {
+    "category": "general",
+    "difficulty": "junior",
+    "frequency": "high",
+    "translations": {
+      "en": {
+        "question": "What is the difference between a threat, vulnerability, and risk?",
+        "answer": "A threat is a potential attack on an organization's assets, a vulnerability is a weakness in a system that can be exploited, and a risk is the likelihood and potential impact of a threat exploiting a vulnerability."
+      },
+      "fr": {
+        "question": "Quelle est la différence entre une menace, une vulnérabilité et un risque ?",
+        "answer": "Une menace est une attaque potentielle contre les actifs d'une organisation, une vulnérabilité est une faiblesse d'un système qui peut être exploitée et un risque est la probabilité et l'impact potentiel d'une menace exploitant une vulnérabilité."
+      }
+    }
+  },
+  {
+    "category": "blue-team",
+    "difficulty": "intermediate",
+    "frequency": "medium",
+    "translations": {
+      "en": {
+        "question": "What is a security incident response plan?",
+        "answer": "A security incident response plan is a set of procedures that outline how an organization will respond to a security incident, such as a data breach or ransomware attack."
+      },
+      "fr": {
+        "question": "Qu'est-ce qu'un plan de réponse aux incidents de sécurité ?",
+        "answer": "Un plan de réponse aux incidents de sécurité est un ensemble de procédures qui décrivent la manière dont une organisation réagira à un incident de sécurité, tel qu'une violation de données ou une attaque de ransomware."
+      }
+    }
+  },
+  {
+    "category": "general",
+    "difficulty": "junior",
+    "frequency": "medium",
+    "translations": {
+      "en": {
+        "question": "What is the difference between a security policy and a security procedure?",
+        "answer": "A security policy is a high-level document that outlines an organization's security objectives and requirements, while a security procedure is a detailed step-by-step guide on how to implement a specific security policy."
+      },
+      "fr": {
+        "question": "Quelle est la différence entre une politique de sécurité et une procédure de sécurité ?",
+        "answer": "Une politique de sécurité est un document de haut niveau qui décrit les objectifs et les exigences de sécurité d'une organisation, tandis qu'une procédure de sécurité est un guide détaillé étape par étape sur la façon de mettre en œuvre une politique de sécurité spécifique."
+      }
+    }
+  },
+  {
+    "category": "general",
+    "difficulty": "junior",
+    "frequency": "medium",
+    "translations": {
+      "en": {
+        "question": "What is NIST?",
+        "answer": "NIST (National Institute of Standards and Technology) is a non-regulatory agency of the US government that provides guidelines, standards, and best practices for information security."
+      },
+      "fr": {
+        "question": "Qu'est-ce que le NIST ?",
+        "answer": "Le NIST (National Institute of Standards and Technology) est une agence non réglementaire du gouvernement américain qui fournit des lignes directrices, des normes et des meilleures pratiques en matière de sécurité de l'information."
+      }
+    }
+  },
+  {
+    "category": "general",
+    "difficulty": "intermediate",
+    "frequency": "medium",
+    "translations": {
+      "en": {
+        "question": "What is the NIST Cybersecurity Framework?",
+        "answer": "The NIST Cybersecurity Framework is a voluntary framework that provides guidelines and best practices for managing and reducing cybersecurity risk."
+      },
+      "fr": {
+        "question": "Qu'est-ce que le cadre de cybersécurité du NIST?",
+        "answer": "Le NIST Cybersecurity Framework est un cadre volontaire qui fournit des lignes directrices et des bonnes pratiques pour gérer et réduire les risques de cybersécurité."
+      }
+    }
+  },
+  {
+    "category": "red-team",
+    "difficulty": "junior",
+    "frequency": "high",
+    "translations": {
+      "en": {
+        "question": "What is a vulnerability scan?",
+        "answer": "A vulnerability scan is an automated process that identifies potential vulnerabilities in a system or network."
+      },
+      "fr": {
+        "question": "Qu'est-ce qu'une analyse de vulnérabilité ?",
+        "answer": "Une analyse de vulnérabilité est un processus automatisé qui identifie les vulnérabilités potentielles d'un système ou d'un réseau."
+      }
+    }
+  },
+  {
+    "category": "red-team",
+    "difficulty": "junior",
+    "frequency": "high",
+    "translations": {
+      "en": {
+        "question": "What is penetration testing?",
+        "answer": "Penetration testing is a simulated cyber attack on a system or network to test its defences and identify potential vulnerabilities."
+      },
+      "fr": {
+        "question": "Qu'est-ce que les tests d'intrusion ?",
+        "answer": "Les tests d'intrusion sont une cyberattaque simulée sur un système ou un réseau pour tester ses défenses et identifier les vulnérabilités potentielles."
+      }
+    }
+  },
+  {
+    "category": "red-team",
+    "difficulty": "junior",
+    "frequency": "high",
+    "translations": {
+      "en": {
+        "question": "What is the difference between a black box, grey box, and white box test?",
+        "answer": "A black box test is a penetration test where the tester does not know the system or network, a grey box test is a penetration test where the tester has partial knowledge of the system or network, and a white box test is a penetration test where the tester has full knowledge of the system or network."
+      },
+      "fr": {
+        "question": "Quelle est la différence entre un test en boîte noire, en boîte grise et en boîte blanche ?",
+        "answer": "Un test boîte noire est un test d'intrusion où le testeur ne connaît pas le système ou le réseau, un test boîte grise est un test d'intrusion où le testeur a une connaissance partielle du système ou du réseau, et un test boîte blanche est un test d'intrusion où le testeur a une connaissance complète du système ou du réseau."
+      }
+    }
+  },
+  {
+    "category": "network",
+    "difficulty": "junior",
+    "frequency": "high",
+    "translations": {
+      "en": {
+        "question": "What is a firewall?",
+        "answer": "A firewall is a network security system that monitors and controls incomin and outgoing network traffic based on predetermined security rules."
+      },
+      "fr": {
+        "question": "Qu'est-ce qu'un pare-feu ?",
+        "answer": "Un pare-feu est un système de sécurité réseau qui surveille et contrôle le trafic réseau entrant et sortant en fonction de règles de sécurité prédéterminées."
+      }
+    }
+  },
+  {
+    "category": "network",
+    "difficulty": "intermediate",
+    "frequency": "medium",
+    "translations": {
+      "en": {
+        "question": "What is a DMZ?",
+        "answer": "A DMZ (Demilitarized Zone) is a network segment that separates the Internet from an internal network, providing an additional layer of security."
+      },
+      "fr": {
+        "question": "Qu'est-ce qu'une DMZ ?",
+        "answer": "Une DMZ (zone démilitarisée) est un segment de réseau qui sépare Internet d'un réseau interne, offrant ainsi une couche de sécurité supplémentaire."
+      }
+    }
+  },
+  {
+    "category": "network",
+    "difficulty": "junior",
+    "frequency": "high",
+    "translations": {
+      "en": {
+        "question": "What is a VPN?",
+        "answer": "A VPN (Virtual Private Network) is a technology that allows users to securely connect to a network over the Internet."
+      },
+      "fr": {
+        "question": "Qu'est-ce qu'un VPN ?",
+        "answer": "Un VPN (Virtual Private Network) est une technologie qui permet aux utilisateurs de se connecter en toute sécurité à un réseau via Internet."
+      }
+    }
+  },
+  {
+    "category": "crypto",
+    "difficulty": "junior",
+    "frequency": "high",
+    "translations": {
+      "en": {
+        "question": "What is encryption?",
+        "answer": "Encryption is the process of converting plaintext data into unreadable ciphertext data to protect it from unauthorized access."
+      },
+      "fr": {
+        "question": "Qu'est-ce que le cryptage ?",
+        "answer": "Le cryptage est le processus de conversion des données en clair en données chiffrées illisibles pour les protéger contre tout accès non autorisé."
+      }
+    }
+  },
+  {
+    "category": "crypto",
+    "difficulty": "junior",
+    "frequency": "high",
+    "translations": {
+      "en": {
+        "question": "What is decryption?",
+        "answer": "Decryption is the process of converting ciphertext data back into plaintext data."
+      },
+      "fr": {
+        "question": "Qu'est-ce que le décryptage ?",
+        "answer": "Le déchiffrement est le processus de reconversion des données chiffrées en données en texte brut."
+      }
+    }
+  },
+  {
+    "category": "os",
+    "difficulty": "intermediate",
+    "frequency": "medium",
+    "translations": {
+      "en": {
+        "question": "What is a public key infrastructure (PKI)?",
+        "answer": "A PKI is a system that enables the creation, management, and distribution of public-private key pairs for secure communication."
+      },
+      "fr": {
+        "question": "Qu'est-ce qu'une infrastructure à clé publique (PKI) ?",
+        "answer": "Une PKI est un système qui permet la création, la gestion et la distribution de paires de clés publique-privée pour une communication sécurisée."
+      }
+    }
+  },
+  {
+    "category": "network",
+    "difficulty": "junior",
+    "frequency": "high",
+    "translations": {
+      "en": {
+        "question": "What is a certificate authority (CA)?",
+        "answer": "A CA is an entity that issues digital certificates to verify the identity of individuals, organizations, or devices."
+      },
+      "fr": {
+        "question": "Qu'est-ce qu'une autorité de certification (CA) ?",
+        "answer": "Une autorité de certification est une entité qui émet des certificats numériques pour vérifier l'identité d'individus, d'organisations ou d'appareils."
+      }
+    }
+  },
+  {
+    "category": "crypto",
+    "difficulty": "junior",
+    "frequency": "medium",
+    "translations": {
+      "en": {
+        "question": "What is a digital signature?",
+        "answer": "A digital signature is a cryptographic mechanism that verifies the authenticity and integrity of a message or document."
+      },
+      "fr": {
+        "question": "Qu'est-ce qu'une signature numérique ?",
+        "answer": "Une signature numérique est un mécanisme cryptographique qui vérifie l'authenticité et l'intégrité d'un message ou d'un document."
+      }
+    }
+  },
+  {
+    "category": "crypto",
+    "difficulty": "junior",
+    "frequency": "high",
+    "translations": {
+      "en": {
+        "question": "What is SSL/TLS?",
+        "answer": "SSL/TLS (Secure Sockets Layer/Transport Layer Security) is a cryptographic protocol that provides secure communication between a client and a server."
+      },
+      "fr": {
+        "question": "Qu'est-ce que SSL/TLS ?",
+        "answer": "SSL/TLS (Secure Sockets Layer/Transport Layer Security) est un protocole cryptographique qui assure une communication sécurisée entre un client et un serveur."
+      }
+    }
+  },
+  {
+    "category": "network",
+    "difficulty": "junior",
+    "frequency": "high",
+    "translations": {
+      "en": {
+        "question": "What is HTTPS?",
+        "answer": "HTTPS (Hypertext Transfer Protocol Secure) is a secure communication protocol that combines HTTP with SSL/TLS to provide secure communication between a client and a server."
+      },
+      "fr": {
+        "question": "Qu'est-ce que le HTTPS ?",
+        "answer": "HTTPS (Hypertext Transfer Protocol Secure) est un protocole de communication sécurisé qui combine HTTP avec SSL/TLS pour fournir une communication sécurisée entre un client et un serveur."
+      }
+    }
+  },
+  {
+    "category": "blue-team",
+    "difficulty": "intermediate",
+    "frequency": "medium",
+    "translations": {
+      "en": {
+        "question": "What is a security information and event management (SIEM) system?",
+        "answer": "A SIEM system is a solution that collects, monitors, and analyzes log data from various sources to provide real-time insights into security threats."
+      },
+      "fr": {
+        "question": "Qu'est-ce qu'un système de gestion des informations et des événements de sécurité (SIEM) ?",
+        "answer": "Un système SIEM est une solution qui collecte, surveille et analyse les données de journaux provenant de diverses sources pour fournir des informations en temps réel sur les menaces de sécurité."
+      }
+    }
+  },
+  {
+    "category": "blue-team",
+    "difficulty": "intermediate",
+    "frequency": "high",
+    "translations": {
+      "en": {
+        "question": "What is threat intelligence?",
+        "answer": "Threat intelligence is the process of gathering, analyzing, and sharing information about potential security threats to improve incident response and threat prevention."
+      },
+      "fr": {
+        "question": "Qu'est-ce que le renseignement sur les menaces ?",
+        "answer": "Le renseignement sur les menaces est le processus de collecte, d'analyse et de partage d'informations sur les menaces de sécurité potentielles afin d'améliorer la réponse aux incidents et la prévention des menaces."
+      }
+    }
+  },
+  {
+    "category": "blue-team",
+    "difficulty": "junior",
+    "frequency": "high",
+    "translations": {
+      "en": {
+        "question": "What is a security operations centre (SOC)?",
+        "answer": "A SOC is a centralized unit that monitors and responds to security incidents in real time."
+      },
+      "fr": {
+        "question": "Qu'est-ce qu'un centre d'opérations de sécurité (SOC) ?",
+        "answer": "Un SOC est une unité centralisée qui surveille et répond aux incidents de sécurité en temps réel."
+      }
+    }
+  },
+  {
+    "category": "blue-team",
+    "difficulty": "intermediate",
+    "frequency": "medium",
+    "translations": {
+      "en": {
+        "question": "What is a disaster recovery plan?",
+        "answer": "A disaster recovery plan is a set of procedures that outline how an organization will recover from a disaster or major outage."
+      },
+      "fr": {
+        "question": "Qu'est-ce qu'un plan de reprise après sinistre ?",
+        "answer": "Un plan de reprise après sinistre est un ensemble de procédures qui décrivent comment une organisation se remettra d'un sinistre ou d'une panne majeure."
+      }
+    }
+  },
+  {
+    "category": "general",
+    "difficulty": "intermediate",
+    "frequency": "low",
+    "translations": {
+      "en": {
+        "question": "What is a business continuity plan?",
+        "answer": "A business continuity plan is a set of procedures that outline how an organization will continue to operate during a disaster or major outage."
+      },
+      "fr": {
+        "question": "Qu'est-ce qu'un plan de continuité d'activité ?",
+        "answer": "Un plan de continuité des activités est un ensemble de procédures qui décrivent comment une organisation continuera à fonctionner en cas de sinistre ou de panne majeure."
+      }
+    }
+  },
+  {
+    "category": "blue-team",
+    "difficulty": "junior",
+    "frequency": "medium",
+    "translations": {
+      "en": {
+        "question": "What is a risk assessment?",
+        "answer": "A risk assessment is a systematic process of identifying, evaluating, and prioritizing potential security risks."
+      },
+      "fr": {
+        "question": "Qu'est-ce qu'une évaluation des risques ?",
+        "answer": "Une évaluation des risques est un processus systématique d'identification, d'évaluation et de priorisation des risques de sécurité potentiels."
+      }
+    }
+  },
+  {
+    "category": "blue-team",
+    "difficulty": "junior",
+    "frequency": "medium",
+    "translations": {
+      "en": {
+        "question": "What is a vulnerability assessment?",
+        "answer": "A vulnerability assessment is a systematic process of identifying and evaluating potential vulnerabilities in a system or network."
+      },
+      "fr": {
+        "question": "Qu'est-ce qu'une évaluation de vulnérabilité ?",
+        "answer": "Une évaluation de vulnérabilité est un processus systématique d'identification et d'évaluation des vulnérabilités potentielles d'un système ou d'un réseau."
+      }
+    }
+  },
+  {
+    "category": "general",
+    "difficulty": "junior",
+    "frequency": "medium",
+    "translations": {
+      "en": {
+        "question": "What is a compliance audit?",
+        "answer": "A compliance audit is an independent examination and evaluation of an organization's security controls to ensure they meet regulatory or industry standards."
+      },
+      "fr": {
+        "question": "Qu'est-ce qu'un audit de conformité ?",
+        "answer": "Un audit de conformité est un examen et une évaluation indépendants des contrôles de sécurité d'une organisation pour garantir qu'ils répondent aux normes réglementaires ou industrielles."
+      }
+    }
+  },
+  {
+    "category": "general",
+    "difficulty": "junior",
+    "frequency": "low",
+    "translations": {
+      "en": {
+        "question": "What is HIPAA?",
+        "answer": "HIPAA (Health Insurance Portability and Accountability Act) is a US law that governs the protection of sensitive health information."
+      },
+      "fr": {
+        "question": "Qu'est-ce que la loi HIPAA ?",
+        "answer": "HIPAA (Health Insurance Portability and Accountability Act) est une loi américaine qui régit la protection des informations sensibles sur la santé."
+      }
+    }
+  },
+  {
+    "category": "general",
+    "difficulty": "junior",
+    "frequency": "medium",
+    "translations": {
+      "en": {
+        "question": "What is PCI-DSS?",
+        "answer": "PCI-DSS (Payment Card Industry Data Security Standard) is a set of security standards for organizations that handle credit card information."
+      },
+      "fr": {
+        "question": "Qu'est-ce que PCI-DSS ?",
+        "answer": "PCI-DSS (Payment Card Industry Data Security Standard) est un ensemble de normes de sécurité destinées aux organisations qui gèrent les informations de carte de crédit."
+      }
+    }
+  },
+  {
+    "category": "general",
+    "difficulty": "junior",
+    "frequency": "high",
+    "translations": {
+      "en": {
+        "question": "What is GDPR?",
+        "answer": "GDPR (General Data Protection Regulation) is a European Union law that governs the protection of personal data."
+      },
+      "fr": {
+        "question": "Qu'est-ce que le RGPD ?",
+        "answer": "Le RGPD (Règlement Général sur la Protection des Données) est une loi de l'Union européenne qui régit la protection des données personnelles."
+      }
+    }
+  },
+  {
+    "category": "blue-team",
+    "difficulty": "junior",
+    "frequency": "high",
+    "translations": {
+      "en": {
+        "question": "What is a security awareness program?",
+        "answer": "A security awareness program is a systematic approach to educating employees about security best practices and risks."
+      },
+      "fr": {
+        "question": "Qu'est-ce qu'un programme de sensibilisation à la sécurité ?",
+        "answer": "Un programme de sensibilisation à la sécurité est une approche systématique visant à informer les employés sur les meilleures pratiques et les risques en matière de sécurité."
+      }
+    }
+  },
+  {
+    "category": "red-team",
+    "difficulty": "junior",
+    "frequency": "high",
+    "translations": {
+      "en": {
+        "question": "What is phishing?",
+        "answer": "Phishing is a social engineering attack that uses email or messaging to trick individuals into revealing sensitive information."
+      },
+      "fr": {
+        "question": "Qu'est-ce que le phishing ?",
+        "answer": "Le phishing est une attaque d'ingénierie sociale qui utilise le courrier électronique ou la messagerie pour inciter des individus à révéler des informations sensibles."
+      }
+    }
+  },
+  {
+    "category": "red-team",
+    "difficulty": "junior",
+    "frequency": "high",
+    "translations": {
+      "en": {
+        "question": "What is social engineering?",
+        "answer": "Social engineering is a type of attack that uses psychological manipulation to trick individuals into revealing sensitive information."
+      },
+      "fr": {
+        "question": "Qu'est-ce que l'ingénierie sociale ?",
+        "answer": "L'ingénierie sociale est un type d'attaque qui utilise la manipulation psychologique pour inciter les individus à révéler des informations sensibles."
+      }
+    }
+  },
+  {
+    "category": "red-team",
+    "difficulty": "junior",
+    "frequency": "medium",
+    "translations": {
+      "en": {
+        "question": "What is a zero-day exploit?",
+        "answer": "A zero-day exploit is a previously unknown vulnerability that is exploited by an attacker before a patch or fix is available."
+      },
+      "fr": {
+        "question": "Qu'est-ce qu'un exploit Zero Day ?",
+        "answer": "Un exploit zero-day est une vulnérabilité jusque-là inconnue qui est exploitée par un attaquant avant qu'un correctif ou un correctif ne soit disponible."
+      }
+    }
+  },
+  {
+    "category": "os",
+    "difficulty": "intermediate",
+    "frequency": "low",
+    "translations": {
+      "en": {
+        "question": "What is a buffer overflow?",
+        "answer": "A buffer overflow is a type of vulnerability that occurs when more data is written to a buffer than it can hold, allowing an attacker to execute malicious code."
+      },
+      "fr": {
+        "question": "Qu'est-ce qu'un débordement de tampon ?",
+        "answer": "Un débordement de tampon est un type de vulnérabilité qui se produit lorsque plus de données sont écrites dans un tampon qu'il ne peut en contenir, permettant à un attaquant d'exécuter du code malveillant."
+      }
+    }
+  },
+  {
+    "category": "web",
+    "difficulty": "junior",
+    "frequency": "high",
+    "translations": {
+      "en": {
+        "question": "What is cross-site scripting (XSS)?",
+        "answer": "XSS is a type of vulnerability that occurs when an attacker injects malicious code into a website to steal user data or take control of the user's session."
+      },
+      "fr": {
+        "question": "Qu'est-ce que le cross-site scripting (XSS) ?",
+        "answer": "XSS est un type de vulnérabilité qui se produit lorsqu'un attaquant injecte du code malveillant dans un site Web pour voler les données d'un utilisateur ou prendre le contrôle de la session de l'utilisateur."
+      }
+    }
+  },
+  {
+    "category": "network",
+    "difficulty": "junior",
+    "frequency": "high",
+    "translations": {
+      "en": {
+        "question": "What is a denial of service (DoS) attack?",
+        "answer": "A DoS attack is a type of attack that attempts to make a system or network unavailable by flooding it with traffic."
+      },
+      "fr": {
+        "question": "Qu'est-ce qu'une attaque par déni de service (DoS) ?",
+        "answer": "Une attaque DoS est un type d'attaque qui tente de rendre un système ou un réseau indisponible en l'inondant de trafic."
+      }
+    }
+  },
+  {
+    "category": "network",
+    "difficulty": "junior",
+    "frequency": "high",
+    "translations": {
+      "en": {
+        "question": "What is a distributed denial of service (DDoS) attack?",
+        "answer": "A DDoS attack is a type of attack that uses multiple compromised systems to flood a system or network with traffic."
+      },
+      "fr": {
+        "question": "Qu'est-ce qu'une attaque par déni de service distribué (DDoS) ?",
+        "answer": "Une attaque DDoS est un type d'attaque qui utilise plusieurs systèmes compromis pour inonder un système ou un réseau de trafic."
+      }
+    }
+  },
+  {
+    "category": "general",
+    "difficulty": "junior",
+    "frequency": "medium",
+    "translations": {
+      "en": {
+        "question": "What is a Trojan horse?",
+        "answer": "A Trojan horse is a type of malware that disguises itself as legitimate software to gain unauthorized access to a system."
+      },
+      "fr": {
+        "question": "Qu'est-ce qu'un cheval de Troie ?",
+        "answer": "Un cheval de Troie est un type de malware qui se déguise en logiciel légitime pour obtenir un accès non autorisé à un système."
+      }
+    }
+  },
+  {
+    "category": "general",
+    "difficulty": "junior",
+    "frequency": "high",
+    "translations": {
+      "en": {
+        "question": "What is ransomware?",
+        "answer": "Ransomware is a type of malware that encrypts files and demands payment in exchange for the decryption key."
+      },
+      "fr": {
+        "question": "Qu'est-ce qu'un ransomware ?",
+        "answer": "Un ransomware est un type de malware qui crypte les fichiers et exige un paiement en échange de la clé de déchiffrement."
+      }
+    }
+  },
+  {
+    "category": "general",
+    "difficulty": "junior",
+    "frequency": "medium",
+    "translations": {
+      "en": {
+        "question": "What is a botnet?",
+        "answer": "A botnet is a network of compromised systems that can be controlled remotely to conduct DDoS attacks, send spam, or steal sensitive information."
+      },
+      "fr": {
+        "question": "Qu'est-ce qu'un botnet ?",
+        "answer": "Un botnet est un réseau de systèmes compromis qui peuvent être contrôlés à distance pour mener des attaques DDoS, envoyer du spam ou voler des informations sensibles."
+      }
+    }
+  },
+  {
+    "category": "general",
+    "difficulty": "junior",
+    "frequency": "medium",
+    "translations": {
+      "en": {
+        "question": "What is a worm?",
+        "answer": "A worm is a type of malware that replicates itself to spread to other systems without the need for human interaction."
+      },
+      "fr": {
+        "question": "Qu'est-ce qu'un ver ?",
+        "answer": "Un ver est un type de logiciel malveillant qui se réplique pour se propager à d'autres systèmes sans nécessiter d'interaction humaine."
+      }
+    }
+  },
+  {
+    "category": "general",
+    "difficulty": "junior",
+    "frequency": "medium",
+    "translations": {
+      "en": {
+        "question": "What is a virus?",
+        "answer": "A virus is a type of malware that attaches itself to a program or file to replicate itself and spread to other systems."
+      },
+      "fr": {
+        "question": "Qu'est-ce qu'un virus ?",
+        "answer": "Un virus est un type de logiciel malveillant qui s'attache à un programme ou à un fichier pour se répliquer et se propager à d'autres systèmes."
+      }
+    }
+  },
+  {
+    "category": "general",
+    "difficulty": "intermediate",
+    "frequency": "low",
+    "translations": {
+      "en": {
+        "question": "What is a rootkit?",
+        "answer": "A rootkit is a type of malware that hides itself and other malicious programs from the operating system and security software."
+      },
+      "fr": {
+        "question": "Qu'est-ce qu'un rootkit ?",
+        "answer": "Un rootkit est un type de malware qui se cache, ainsi que d'autres programmes malveillants, du système d'exploitation et des logiciels de sécurité."
+      }
+    }
+  },
+  {
+    "category": "general",
+    "difficulty": "junior",
+    "frequency": "low",
+    "translations": {
+      "en": {
+        "question": "What is a logic bomb?",
+        "answer": "A logic bomb is a type of malware that is designed to execute malicious code when a specific condition is met."
+      },
+      "fr": {
+        "question": "Qu'est-ce qu'une bombe logique ?",
+        "answer": "Une bombe logique est un type de malware conçu pour exécuter du code malveillant lorsqu'une condition spécifique est remplie."
+      }
+    }
+  },
+  {
+    "category": "general",
+    "difficulty": "junior",
+    "frequency": "medium",
+    "translations": {
+      "en": {
+        "question": "What is a spyware?",
+        "answer": "Spyware is a type of malware that monitors user activity and steals sensitive information without their knowledge or consent."
+      },
+      "fr": {
+        "question": "Qu'est-ce qu'un logiciel espion ?",
+        "answer": "Les logiciels espions sont un type de logiciel malveillant qui surveille l'activité des utilisateurs et vole des informations sensibles à leur insu ou sans leur consentement."
+      }
+    }
+  },
+  {
+    "category": "general",
+    "difficulty": "junior",
+    "frequency": "low",
+    "translations": {
+      "en": {
+        "question": "What is adware?",
+        "answer": "Adware is a type of malware that displays unwanted advertisements on a system."
+      },
+      "fr": {
+        "question": "Qu'est-ce qu'un logiciel publicitaire ?",
+        "answer": "Les logiciels publicitaires sont un type de malware qui affiche des publicités indésirables sur un système."
+      }
+    }
+  },
+  {
+    "category": "general",
+    "difficulty": "junior",
+    "frequency": "medium",
+    "translations": {
+      "en": {
+        "question": "What is a keylogger?",
+        "answer": "A keylogger is a type of malware that records user keystrokes to steal sensitive information such as passwords and credit card numbers."
+      },
+      "fr": {
+        "question": "Qu'est-ce qu'un enregistreur de frappe ?",
+        "answer": "Un keylogger est un type de malware qui enregistre les frappes des utilisateurs pour voler des informations sensibles telles que des mots de passe et des numéros de carte de crédit."
+      }
+    }
+  },
+  {
+    "category": "general",
+    "difficulty": "junior",
+    "frequency": "medium",
+    "translations": {
+      "en": {
+        "question": "What is a backdoor?",
+        "answer": "A backdoor is a type of malware that provides unauthorized access to a system or network."
+      },
+      "fr": {
+        "question": "Qu'est-ce qu'une porte dérobée ?",
+        "answer": "Une porte dérobée est un type de malware qui fournit un accès non autorisé à un système ou un réseau."
+      }
+    }
+  },
+  {
+    "category": "crypto",
+    "difficulty": "junior",
+    "frequency": "medium",
+    "translations": {
+      "en": {
+        "question": "What is a digital certificate?",
+        "answer": "A digital certificate is an electronic document that verifies the identity of an individual, organization, or device."
+      },
+      "fr": {
+        "question": "Qu'est-ce qu'un certificat numérique ?",
+        "answer": "Un certificat numérique est un document électronique qui vérifie l'identité d'un individu, d'une organisation ou d'un appareil."
+      }
+    }
+  },
+  {
+    "category": "crypto",
+    "difficulty": "junior",
+    "frequency": "high",
+    "translations": {
+      "en": {
+        "question": "What is a public key?",
+        "answer": "A public key is a cryptographic key that is used to encrypt data that can only be decrypted with a corresponding private key."
+      },
+      "fr": {
+        "question": "Qu'est-ce qu'une clé publique ?",
+        "answer": "Une clé publique est une clé cryptographique utilisée pour chiffrer des données qui ne peuvent être déchiffrées qu'avec une clé privée correspondante."
+      }
+    }
+  },
+  {
+    "category": "crypto",
+    "difficulty": "junior",
+    "frequency": "high",
+    "translations": {
+      "en": {
+        "question": "What is a private key?",
+        "answer": "A private key is a cryptographic key that is used to decrypt data that was encrypted with a corresponding public key."
+      },
+      "fr": {
+        "question": "Qu'est-ce qu'une clé privée ?",
+        "answer": "Une clé privée est une clé cryptographique utilisée pour déchiffrer des données chiffrées avec une clé publique correspondante."
+      }
+    }
+  },
+  {
+    "category": "cloud",
+    "difficulty": "junior",
+    "frequency": "medium",
+    "translations": {
+      "en": {
+        "question": "What is a hybrid cloud?",
+        "answer": "A hybrid cloud is a cloud computing environment that combines on-premises infrastructure with public cloud services."
+      },
+      "fr": {
+        "question": "Qu'est-ce qu'un cloud hybride ?",
+        "answer": "Un cloud hybride est un environnement de cloud computing qui combine une infrastructure sur site avec des services de cloud public."
+      }
+    }
+  },
+  {
+    "category": "cloud",
+    "difficulty": "intermediate",
+    "frequency": "low",
+    "translations": {
+      "en": {
+        "question": "What is a cloud security gateway?",
+        "answer": "A cloud security gateway is a security solution that monitors and controls traffic between a cloud service and the Internet."
+      },
+      "fr": {
+        "question": "Qu'est-ce qu'une passerelle de sécurité cloud ?",
+        "answer": "Une passerelle de sécurité cloud est une solution de sécurité qui surveille et contrôle le trafic entre un service cloud et Internet."
+      }
+    }
+  },
+  {
+    "category": "cloud",
+    "difficulty": "intermediate",
+    "frequency": "medium",
+    "translations": {
+      "en": {
+        "question": "What is a cloud access security broker (CASB)?",
+        "answer": "A CASB is a security solution that monitors and controls cloud service usage to detect and prevent security threats."
+      },
+      "fr": {
+        "question": "Qu'est-ce qu'un courtier de sécurité d'accès au cloud (CASB) ?",
+        "answer": "Un CASB est une solution de sécurité qui surveille et contrôle l'utilisation des services cloud pour détecter et prévenir les menaces de sécurité."
+      }
+    }
+  },
+  {
+    "category": "blue-team",
+    "difficulty": "intermediate",
+    "frequency": "medium",
+    "translations": {
+      "en": {
+        "question": "What is a security orchestration, automation, and response (SOAR) solution?",
+        "answer": "A SOAR solution is a security solution that automates and streamlines incident response processes to improve efficiency and effectiveness."
+      },
+      "fr": {
+        "question": "Qu'est-ce qu'une solution d'orchestration, d'automatisation et de réponse de sécurité (SOAR) ?",
+        "answer": "Une solution SOAR est une solution de sécurité qui automatise et rationalise les processus de réponse aux incidents pour améliorer l'efficience et l'efficacité."
+      }
+    }
+  },
+  {
+    "category": "blue-team",
+    "difficulty": "junior",
+    "frequency": "medium",
+    "translations": {
+      "en": {
+        "question": "What is a managed security service provider (MSSP)?",
+        "answer": "An MSSP is a third-party provider that offers security services, such as monitoring and incident response, to customers."
+      },
+      "fr": {
+        "question": "Qu'est-ce qu'un fournisseur de services de sécurité gérés (MSSP) ?",
+        "answer": "Un MSSP est un fournisseur tiers qui propose aux clients des services de sécurité, tels que la surveillance et la réponse aux incidents."
+      }
+    }
+  },
+  {
+    "category": "blue-team",
+    "difficulty": "junior",
+    "frequency": "low",
+    "translations": {
+      "en": {
+        "question": "What is a security incident response team (SIRT)?",
+        "answer": "A SIRT is a team of security professionals that responds to security incidents to contain and mitigate the impact of the incident."
+      },
+      "fr": {
+        "question": "Qu'est-ce qu'une équipe de réponse aux incidents de sécurité (SIRT) ?",
+        "answer": "Un SIRT est une équipe de professionnels de la sécurité qui répond aux incidents de sécurité pour contenir et atténuer l'impact de l'incident."
+      }
+    }
+  },
+  {
+    "category": "blue-team",
+    "difficulty": "intermediate",
+    "frequency": "low",
+    "translations": {
+      "en": {
+        "question": "What is a security operations centre (SOC) as a service?",
+        "answer": "A SOC as a service is a managed security service that provides 24/7 security monitoring and incident response to customers."
+      },
+      "fr": {
+        "question": "Qu'est-ce qu'un centre d'opérations de sécurité (SOC) en tant que service ?",
+        "answer": "Un SOC en tant que service est un service de sécurité géré qui fournit aux clients une surveillance de la sécurité et une réponse aux incidents 24h/24 et 7j/7."
+      }
+    }
+  },
+  {
+    "category": "cloud",
+    "difficulty": "junior",
+    "frequency": "low",
+    "translations": {
+      "en": {
+        "question": "What is compliance as a service?",
+        "answer": "Compliance as a service is a managed service that helps organizations comply with regulatory requirements and industry standards."
+      },
+      "fr": {
+        "question": "Qu'est-ce que la conformité en tant que service ?",
+        "answer": "La conformité en tant que service est un service géré qui aide les organisations à se conformer aux exigences réglementaires et aux normes industrielles."
+      }
+    }
+  },
+  {
+    "category": "red-team",
+    "difficulty": "junior",
+    "frequency": "low",
+    "translations": {
+      "en": {
+        "question": "What is penetration testing as a service?",
+        "answer": "Penetration testing as a service is a managed service that provides recurring penetration testing to identify vulnerabilities and improve security posture."
+      },
+      "fr": {
+        "question": "Qu'est-ce que le test d'intrusion en tant que service ?",
+        "answer": "Les tests d'intrusion en tant que service sont un service géré qui fournit des tests d'intrusion récurrents pour identifier les vulnérabilités et améliorer la posture de sécurité."
+      }
+    }
+  },
+  {
+    "category": "blue-team",
+    "difficulty": "intermediate",
+    "frequency": "medium",
+    "translations": {
+      "en": {
+        "question": "What is vulnerability management as a service?",
+        "answer": "Vulnerability management as a service is a managed service that identifies and prioritizes vulnerabilities, provides remediation guidance, and tracks progress."
+      },
+      "fr": {
+        "question": "Qu'est-ce que la gestion des vulnérabilités en tant que service ?",
+        "answer": "La gestion des vulnérabilités en tant que service est un service géré qui identifie et hiérarchise les vulnérabilités, fournit des conseils de remédiation et suit les progrès."
+      }
+    }
+  },
+  {
+    "category": "blue-team",
+    "difficulty": "intermediate",
+    "frequency": "medium",
+    "translations": {
+      "en": {
+        "question": "What is threat intelligence as a service?",
+        "answer": "Threat intelligence as a service is a managed service that provides real-time threat intelligence feeds to help organizations improve their incident response and threat prevention capabilities."
+      },
+      "fr": {
+        "question": "Qu'est-ce que le renseignement sur les menaces en tant que service ?",
+        "answer": "Le Threat Intelligence as a Service est un service géré qui fournit des flux de renseignements sur les menaces en temps réel pour aider les organisations à améliorer leurs capacités de réponse aux incidents et de prévention des menaces."
+      }
+    }
+  },
+  {
+    "category": "blue-team",
+    "difficulty": "junior",
+    "frequency": "low",
+    "translations": {
+      "en": {
+        "question": "What is a security awareness training as a service?",
+        "answer": "Security awareness training as a service is a managed service that provides regular security awareness training to employees to improve their security knowledge and behaviours."
+      },
+      "fr": {
+        "question": "Qu'est-ce qu'une formation de sensibilisation à la sécurité en tant que service ?",
+        "answer": "La formation de sensibilisation à la sécurité en tant que service est un service géré qui propose régulièrement une formation de sensibilisation à la sécurité aux employés afin d'améliorer leurs connaissances et leurs comportements en matière de sécurité."
+      }
+    }
+  },
+  {
+    "category": "cloud",
+    "difficulty": "intermediate",
+    "frequency": "medium",
+    "translations": {
+      "en": {
+        "question": "What is a cloud workload protection platform (CWPP)?",
+        "answer": "A CWPP is a security solution that protects cloud-native applications and workloads."
+      },
+      "fr": {
+        "question": "Qu'est-ce qu'une plateforme de protection des charges de travail cloud (CWPP) ?",
+        "answer": "Un CWPP est une solution de sécurité qui protège les applications et charges de travail cloud natives."
+      }
+    }
+  },
+  {
+    "category": "cloud",
+    "difficulty": "intermediate",
+    "frequency": "medium",
+    "translations": {
+      "en": {
+        "question": "What is a cloud security posture management (CSPM)?",
+        "answer": "A CSPM is a security solution that provides visibility and control over cloud security posture to identify and remediate security risks."
+      },
+      "fr": {
+        "question": "Qu'est-ce qu'une gestion de la posture de sécurité du cloud (CSPM) ?",
+        "answer": "Un CSPM est une solution de sécurité qui offre une visibilité et un contrôle sur la posture de sécurité du cloud pour identifier et remédier aux risques de sécurité."
+      }
+    }
+  },
+  {
+    "category": "cloud",
+    "difficulty": "intermediate",
+    "frequency": "low",
+    "translations": {
+      "en": {
+        "question": "What is cloud infrastructure entitlement management (CIEM)?",
+        "answer": "A CIEM is a security solution that provides visibility and control over cloud infrastructure entitlements to prevent privilege escalation and reduce the attack surface."
+      },
+      "fr": {
+        "question": "Qu'est-ce que la gestion des droits d'accès à l'infrastructure cloud (CIEM) ?",
+        "answer": "Un CIEM est une solution de sécurité qui offre une visibilité et un contrôle sur les droits de l'infrastructure cloud pour empêcher l'élévation des privilèges et réduire la surface d'attaque."
+      }
+    }
+  },
+  {
+    "category": "general",
+    "difficulty": "junior",
+    "frequency": "medium",
+    "translations": {
+      "en": {
+        "question": "What is cloud-based security information and event management (SIEM)?",
+        "answer": "A cloud-based SIEM is a security solution that collects, monitors, and analyzes log data from cloud and on-premises sources to provide real-time insights into security threats."
+      },
+      "fr": {
+        "question": "Qu'est-ce que la gestion des informations et des événements de sécurité dans le cloud (SIEM) ?",
+        "answer": "Un SIEM basé sur le cloud est une solution de sécurité qui collecte, surveille et analyse les données de journaux provenant de sources cloud et sur site pour fournir des informations en temps réel sur les menaces de sécurité."
+      }
+    }
+  },
+  {
+    "category": "general",
+    "difficulty": "junior",
+    "frequency": "medium",
+    "translations": {
+      "en": {
+        "question": "What is a cloud-based security orchestration, automation, and response (SOAR)?",
+        "answer": "A cloud-based SOAR is a security solution that automates and streamlines incident response processes to improve efficiency and effectiveness."
+      },
+      "fr": {
+        "question": "Qu'est-ce qu'une orchestration, une automatisation et une réponse de sécurité basées sur le cloud (SOAR) ?",
+        "answer": "Un SOAR basé sur le cloud est une solution de sécurité qui automatise et rationalise les processus de réponse aux incidents pour améliorer l'efficience et l'efficacité."
+      }
+    }
+  },
+  {
+    "category": "general",
+    "difficulty": "junior",
+    "frequency": "medium",
+    "translations": {
+      "en": {
+        "question": "What is a cloud-based managed security service provider (MSSP)?",
+        "answer": "A cloud-based MSSP is a third-party provider that offers cloud-based security services, such as monitoring and incident response, to customers."
+      },
+      "fr": {
+        "question": "Qu'est-ce qu'un fournisseur de services de sécurité gérés (MSSP) basé sur le cloud ?",
+        "answer": "Un MSSP basé sur le cloud est un fournisseur tiers qui propose aux clients des services de sécurité basés sur le cloud, tels que la surveillance et la réponse aux incidents."
+      }
+    }
+  },
+  {
+    "category": "general",
+    "difficulty": "junior",
+    "frequency": "medium",
+    "translations": {
+      "en": {
+        "question": "What is a cloud-based security incident response team (SIRT)?",
+        "answer": "A cloud-based SIRT is a team of security professionals that responds to security incidents in cloud environments to contain and mitigate the impact of the incident."
+      },
+      "fr": {
+        "question": "Qu'est-ce qu'une équipe de réponse aux incidents de sécurité (SIRT) basée sur le cloud ?",
+        "answer": "Un SIRT basé sur le cloud est une équipe de professionnels de la sécurité qui répond aux incidents de sécurité dans les environnements cloud pour contenir et atténuer l'impact de l'incident."
+      }
+    }
+  },
+  {
+    "category": "general",
+    "difficulty": "junior",
+    "frequency": "medium",
+    "translations": {
+      "en": {
+        "question": "What is a cloud-based security operations centre (SOC)?",
+        "answer": "A cloud-based SOC is a centralized unit that monitors and responds to security incidents in cloud environments in real time."
+      },
+      "fr": {
+        "question": "Qu'est-ce qu'un centre d'opérations de sécurité (SOC) basé sur le cloud ?",
+        "answer": "Un SOC basé sur le cloud est une unité centralisée qui surveille et répond en temps réel aux incidents de sécurité dans les environnements cloud."
+      }
+    }
+  },
+  {
+    "category": "general",
+    "difficulty": "junior",
+    "frequency": "medium",
+    "translations": {
+      "en": {
+        "question": "What is cloud-based cloud security monitoring?",
+        "answer": "Cloud-based cloud security monitoring is a solution that provides real-time visibility into cloud security threats and risks"
+      },
+      "fr": {
+        "question": "Qu'est-ce que la surveillance de la sécurité du cloud basée sur le cloud ?",
+        "answer": "La surveillance de la sécurité du cloud basée sur le cloud est une solution qui offre une visibilité en temps réel sur les menaces et les risques de sécurité du cloud."
+      }
+    }
+  },
+  {
+    "category": "general",
+    "difficulty": "junior",
+    "frequency": "medium",
+    "translations": {
+      "en": {
+        "question": "What is a cloud-based vulnerability management system?",
+        "answer": "A cloud-based vulnerability management system is a solution that identifies, classifies, and prioritizes vulnerabilities in cloud-based systems and applications."
+      },
+      "fr": {
+        "question": "Qu'est-ce qu'un système de gestion des vulnérabilités basé sur le cloud ?",
+        "answer": "Un système de gestion des vulnérabilités basé sur le cloud est une solution qui identifie, classe et hiérarchise les vulnérabilités des systèmes et applications basés sur le cloud."
+      }
+    }
+  },
+  {
+    "category": "general",
+    "difficulty": "junior",
+    "frequency": "medium",
+    "translations": {
+      "en": {
+        "question": "What is a cloud-based threat intelligence platform?",
+        "answer": "A cloud-based threat intelligence platform is a solution that provides real-time threat intelligence feeds to help organizations improve their incident response and threat prevention capabilities."
+      },
+      "fr": {
+        "question": "Qu'est-ce qu'une plateforme cloud de renseignement sur les menaces ?",
+        "answer": "Une plateforme cloud de renseignements sur les menaces est une solution qui fournit des flux de renseignements sur les menaces en temps réel pour aider les organisations à améliorer leurs capacités de réponse aux incidents et de prévention des menaces."
+      }
+    }
+  },
+  {
+    "category": "general",
+    "difficulty": "junior",
+    "frequency": "medium",
+    "translations": {
+      "en": {
+        "question": "What is a cloud-based security awareness training program?",
+        "answer": "A cloud-based security awareness training program is a solution that provides regular security awareness training to employees to improve their security knowledge and behaviours."
+      },
+      "fr": {
+        "question": "Qu'est-ce qu'un programme de formation de sensibilisation à la sécurité basé sur le cloud ?",
+        "answer": "Un programme de formation de sensibilisation à la sécurité basé sur le cloud est une solution qui propose aux employés une formation régulière de sensibilisation à la sécurité afin d'améliorer leurs connaissances et leurs comportements en matière de sécurité."
+      }
+    }
+  },
+  {
+    "category": "general",
+    "difficulty": "junior",
+    "frequency": "medium",
+    "translations": {
+      "en": {
+        "question": "What is a cloud-based incident response playbook?",
+        "answer": "A cloud-based incident response playbook is a pre-defined set of procedures and guidelines for responding to security incidents in cloud environments."
+      },
+      "fr": {
+        "question": "Qu'est-ce qu'un playbook de réponse aux incidents basé sur le cloud ?",
+        "answer": "Un playbook de réponse aux incidents basé sur le cloud est un ensemble prédéfini de procédures et de lignes directrices pour répondre aux incidents de sécurité dans les environnements cloud."
+      }
+    }
+  },
+  {
+    "category": "general",
+    "difficulty": "junior",
+    "frequency": "medium",
+    "translations": {
+      "en": {
+        "question": "What are cloud-based security metrics and reporting?",
+        "answer": "Cloud-based security metrics and reporting is a solution that provides real-time visibility into cloud security posture, risk, and compliance."
+      },
+      "fr": {
+        "question": "Que sont les mesures de sécurité et les rapports basés sur le cloud ?",
+        "answer": "Les mesures et rapports de sécurité basés sur le cloud sont une solution qui offre une visibilité en temps réel sur l'état de la sécurité, les risques et la conformité du cloud."
+      }
+    }
+  },
+  {
+    "category": "general",
+    "difficulty": "junior",
+    "frequency": "medium",
+    "translations": {
+      "en": {
+        "question": "What is cloud-based compliance and risk management?",
+        "answer": "Cloud-based compliance and risk management is a solution that helps organizations manage risk and comply with regulatory requirements in cloud environments."
+      },
+      "fr": {
+        "question": "Qu'est-ce que la gestion des risques et de la conformité basée sur le cloud ?",
+        "answer": "La gestion de la conformité et des risques basée sur le cloud est une solution qui aide les organisations à gérer les risques et à se conformer aux exigences réglementaires dans les environnements cloud."
+      }
+    }
+  },
+  {
+    "category": "general",
+    "difficulty": "junior",
+    "frequency": "medium",
+    "translations": {
+      "en": {
+        "question": "What is a cloud-based identity and access management (IAM)?",
+        "answer": "Cloud-based IAM is a solution that manages identities, access, and privileges in cloud environments to prevent unauthorized access and data breaches."
+      },
+      "fr": {
+        "question": "Qu'est-ce qu'une gestion des identités et des accès (IAM) basée sur le cloud ?",
+        "answer": "L'IAM basé sur le cloud est une solution qui gère les identités, les accès et les privilèges dans les environnements cloud pour empêcher les accès non autorisés et les violations de données."
+      }
+    }
+  },
+  {
+    "category": "general",
+    "difficulty": "junior",
+    "frequency": "medium",
+    "translations": {
+      "en": {
+        "question": "What is a cloud-based single sign-on (SSO)?",
+        "answer": "Cloud-based SSO is a solution that allows users to access multiple cloud-based applications and services with a single set of login credentials."
+      },
+      "fr": {
+        "question": "Qu'est-ce qu'une authentification unique (SSO) basée sur le cloud ?",
+        "answer": "Le SSO basé sur le cloud est une solution qui permet aux utilisateurs d'accéder à plusieurs applications et services basés sur le cloud avec un seul ensemble d'informations de connexion."
+      }
+    }
+  },
+  {
+    "category": "general",
+    "difficulty": "junior",
+    "frequency": "medium",
+    "translations": {
+      "en": {
+        "question": "What is a cloud-based multi-factor authentication (MFA)?",
+        "answer": "Cloud-based MFA is a solution that adds a layer of security to the authentication process by requiring users to provide additional verification factors."
+      },
+      "fr": {
+        "question": "Qu'est-ce qu'une authentification multifacteur (MFA) basée sur le cloud ?",
+        "answer": "La MFA basée sur le cloud est une solution qui ajoute une couche de sécurité au processus d'authentification en obligeant les utilisateurs à fournir des facteurs de vérification supplémentaires."
+      }
+    }
+  },
+  {
+    "category": "general",
+    "difficulty": "junior",
+    "frequency": "medium",
+    "translations": {
+      "en": {
+        "question": "What is a cloud-based encryption?",
+        "answer": "Cloud-based encryption is a solution that protects data in transit and at rest in cloud environments using advanced encryption algorithms."
+      },
+      "fr": {
+        "question": "Qu'est-ce qu'un cryptage basé sur le cloud ?",
+        "answer": "Le chiffrement basé sur le cloud est une solution qui protège les données en transit et au repos dans les environnements cloud à l'aide d'algorithmes de chiffrement avancés."
+      }
+    }
+  },
+  {
+    "category": "general",
+    "difficulty": "junior",
+    "frequency": "medium",
+    "translations": {
+      "en": {
+        "question": "What is cloud-based key management?",
+        "answer": "Cloud-based key management is a solution that securely manages encryption keys in cloud environments to prevent unauthorized access to encrypted data."
+      },
+      "fr": {
+        "question": "Qu'est-ce que la gestion des clés basée sur le cloud ?",
+        "answer": "La gestion des clés basée sur le cloud est une solution qui gère en toute sécurité les clés de chiffrement dans les environnements cloud pour empêcher tout accès non autorisé aux données chiffrées."
+      }
+    }
+  },
+  {
+    "category": "general",
+    "difficulty": "junior",
+    "frequency": "medium",
+    "translations": {
+      "en": {
+        "question": "What is a cloud-based data loss prevention (DLP)?",
+        "answer": "Cloud-based DLP is a solution that monitors and controls data in cloud environments to prevent unauthorized data exfiltration and data breaches."
+      },
+      "fr": {
+        "question": "Qu'est-ce qu'une prévention contre la perte de données (DLP) basée sur le cloud ?",
+        "answer": "Le DLP basé sur le cloud est une solution qui surveille et contrôle les données dans les environnements cloud pour empêcher l'exfiltration de données non autorisée et les violations de données."
+      }
+    }
+  },
+  {
+    "category": "general",
+    "difficulty": "junior",
+    "frequency": "medium",
+    "translations": {
+      "en": {
+        "question": "What is a cloud-based cloud access security broker (CASB)?",
+        "answer": "Cloud-based CASB is a solution that monitors and controls cloud service usage to detect and prevent security threats."
+      },
+      "fr": {
+        "question": "Qu'est-ce qu'un courtier de sécurité d'accès au cloud (CASB) basé sur le cloud ?",
+        "answer": "CASB basé sur le cloud est une solution qui surveille et contrôle l'utilisation des services cloud pour détecter et prévenir les menaces de sécurité."
+      }
+    }
+  },
+  {
+    "category": "general",
+    "difficulty": "junior",
+    "frequency": "medium",
+    "translations": {
+      "en": {
+        "question": "What is a cloud-based cloud workload protection platform (CWPP)?",
+        "answer": "Cloud-based CWPP is a solution that protects cloud-native applications and workloads."
+      },
+      "fr": {
+        "question": "Qu'est-ce qu'une plateforme de protection des charges de travail cloud (CWPP) basée sur le cloud ?",
+        "answer": "CWPP basé sur le cloud est une solution qui protège les applications et les charges de travail cloud natives."
+      }
+    }
+  },
+  {
+    "category": "general",
+    "difficulty": "junior",
+    "frequency": "medium",
+    "translations": {
+      "en": {
+        "question": "What is a cloud-based cloud security posture management (CSPM)?",
+        "answer": "Cloud-based CSPM is a solution that provides visibility and control over cloud security posture to identify and remediate security risks."
+      },
+      "fr": {
+        "question": "Qu'est-ce qu'une gestion de la posture de sécurité du cloud (CSPM) basée sur le cloud ?",
+        "answer": "CSPM basé sur le cloud est une solution qui offre une visibilité et un contrôle sur l'état de sécurité du cloud pour identifier et remédier aux risques de sécurité."
+      }
+    }
+  },
+  {
+    "category": "general",
+    "difficulty": "junior",
+    "frequency": "medium",
+    "translations": {
+      "en": {
+        "question": "What is a cloud-based cloud infrastructure entitlement management (CIEM)?",
+        "answer": "Cloud-based CIEM is a solution that provides visibility and control over cloud infrastructure entitlements to prevent privilege escalation and reduce the attack surface."
+      },
+      "fr": {
+        "question": "Qu'est-ce qu'une gestion des droits d'accès à l'infrastructure cloud (CIEM) basée sur le cloud ?",
+        "answer": "CIEM basé sur le cloud est une solution qui offre une visibilité et un contrôle sur les droits de l'infrastructure cloud pour empêcher l'élévation des privilèges et réduire la surface d'attaque."
+      }
+    }
+  },
+  {
+    "category": "general",
+    "difficulty": "junior",
+    "frequency": "medium",
+    "translations": {
+      "en": {
+        "question": "What is a cloud-based cloud security governance?",
+        "answer": "Cloud-based cloud security governance is a solution that provides a framework for managing cloud security risks and compliance across an organization."
+      },
+      "fr": {
+        "question": "Qu'est-ce qu'une gouvernance de la sécurité du cloud basée sur le cloud ?",
+        "answer": "La gouvernance de la sécurité du cloud basée sur le cloud est une solution qui fournit un cadre pour gérer les risques de sécurité et la conformité du cloud au sein d'une organisation."
+      }
+    }
+  },
+  {
+    "category": "general",
+    "difficulty": "junior",
+    "frequency": "medium",
+    "translations": {
+      "en": {
+        "question": "What is cloud-based cloud risk management?",
+        "answer": "Cloud-based cloud risk management is a solution that identifies, assesses, and prioritizes cloud security risks to inform business decisions."
+      },
+      "fr": {
+        "question": "Qu'est-ce que la gestion des risques cloud basée sur le cloud ?",
+        "answer": "La gestion des risques cloud basée sur le cloud est une solution qui identifie, évalue et hiérarchise les risques de sécurité cloud pour éclairer les décisions commerciales."
+      }
+    }
+  },
+  {
+    "category": "general",
+    "difficulty": "junior",
+    "frequency": "medium",
+    "translations": {
+      "en": {
+        "question": "What is cloud-based cloud compliance management?",
+        "answer": "Cloud-based cloud compliance management is a solution that helps organizations manage compliance with regulatory requirements in cloud environments."
+      },
+      "fr": {
+        "question": "Qu'est-ce que la gestion de la conformité cloud basée sur le cloud ?",
+        "answer": "La gestion de la conformité cloud basée sur le cloud est une solution qui aide les organisations à gérer la conformité aux exigences réglementaires dans les environnements cloud."
+      }
+    }
+  },
+  {
+    "category": "general",
+    "difficulty": "junior",
+    "frequency": "medium",
+    "translations": {
+      "en": {
+        "question": "What is cloud-based cloud audit management?",
+        "answer": "Cloud-based cloud audit management is a solution that provides a framework for managing cloud security audits and assessments."
+      },
+      "fr": {
+        "question": "Qu'est-ce que la gestion des audits cloud basée sur le cloud ?",
+        "answer": "La gestion des audits cloud basée sur le cloud est une solution qui fournit un cadre pour gérer les audits et les évaluations de sécurité cloud."
+      }
+    }
+  },
+  {
+    "category": "general",
+    "difficulty": "junior",
+    "frequency": "medium",
+    "translations": {
+      "en": {
+        "question": "What is cloud-based cloud security analytics?",
+        "answer": "Cloud-based cloud security analytics is a solution that provides real-time insights into cloud security threats and risks using advanced analytics and machine learning."
+      },
+      "fr": {
+        "question": "Qu'est-ce que l'analyse de sécurité cloud basée sur le cloud ?",
+        "answer": "L'analyse de la sécurité du cloud basée sur le cloud est une solution qui fournit des informations en temps réel sur les menaces et les risques de sécurité du cloud à l'aide d'analyses avancées et d'apprentissage automatique."
+      }
+    }
+  }
 ]
